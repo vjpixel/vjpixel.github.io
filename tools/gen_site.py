@@ -576,15 +576,17 @@ talks = (
     ]) + '\n        <p class="section-note">My work was also shown in France and Peru.</p>', head="Highlights")
     + section(cards([
         ("2011 to today", "XR and immersive media",
-         "From the talk &quot;Jandig: art in augmented reality&quot; at FISL (2012) to the panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019) and &quot;Audiovisual Expandido&quot; at Festival Criativar (2020). I also ran Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019)."),
+         "Talks and workshops on augmented reality at Campus Party and FISL (2012) and in the Ciclo Realidade Aumentada at Sesc Sorocaba (2012); the panel &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019); immersive video courses at Sesc Pompeia (2018 and 2019); the talk &quot;Jandig: Remix em Realidade Aumentada&quot; at Noite do Processing (2023); and &quot;Jandig e Mitologia Estendida&quot; at X-Reality USP (2026)."),
+        ("2026", "AI for people who do not code",
+         "Two online classes for readers of diar.ia.br: &quot;Crie seu primeiro agente de IA sem programar&quot; and &quot;Conte&uacute;do Aut&ecirc;ntico com IA&quot;."),
         ("2002 to today", "Open source and free culture",
-         "I gave my first talk in September 2002, in Salvador, on free software for VJing. Since then: the World Social Forum (2005), Latinoware, the Brazilian Digital Culture Forum, and FISL, where I took part in the founding debate of the Free Video Alliance (2010) and sat on the panel &quot;Copyleft Cities&quot; (2012)."),
+         "My first talk, &quot;Softwares para video jockeying&quot;, was in Salvador in 2002. Then: VJ at Gilberto Gil's show for the launch of Creative Commons Brazil at FISL (2004), &quot;Produ&ccedil;&atilde;o multim&iacute;dia em softwares livres&quot; at the World Social Forum (2005), talks at Latinoware (2006 and 2007), the founding debate of the Free Video Alliance at FISL (2010) and the panel &quot;Cidades Copyleft&quot; (2012)."),
         ("2013 to 2018", "Data journalism and open hardware",
-         "I ran Jeo workshops and moderated three debates on journalism and technology at Campus Party (2014), and taught a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco (2014)."),
+         "A Jeo workshop and three debates I moderated at Campus Party (2014); &quot;Cria&ccedil;&atilde;o e remix online de mapas usando Mapas Coletivos&quot; at FISL (2014); a DustDuino workshop for environmental journalists in Berkeley (2014); Rede InfoAmazonia workshops with communities in Santar&eacute;m (2015); a DIY mapping workshop at Red Bull Basement (2015); and participatory aerial mapping at Sesc Interlagos (2018)."),
         ("2002 to 2018", "Games and live visuals",
-         "I worked as a professional VJ for sixteen years. Along the way: the TEDx Salvador talk &quot;Redescobrindo Games&quot; (2013), the works &quot;VideoPong&quot; and &quot;Electro-Organic Experiments&quot; at the SESC Sorocaba opening (2012), and the workshop &quot;Brincando de VJing&quot; at Sesc Osasco (2017)."),
+         "Sixteen years as a professional VJ. I coordinated the first VJBR, a national meeting of VJs (2004), taught projection mapping in four state capitals for Funarte (2013), gave the TEDx Salvador talk &quot;Redescobrindo Games&quot; (2013), showed the playable installations &quot;VideoPong&quot; and &quot;Pac-Man Motion&quot; at Virada Cultural (2013 and 2018), and taught &quot;Brincando de VJing&quot; at Sesc Osasco (2017)."),
     ]), alt=True, head="What I talk about",
-        lede="The 150+ talks and workshops fall into four themes. The events abroad are in the highlights above.")
+        lede="The 150+ talks and workshops fall into five themes. The events abroad are in the highlights above.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
