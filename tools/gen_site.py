@@ -548,7 +548,7 @@ talks = (
         ("Nov 2018 &middot; London, UK", "Mozilla Festival",
          "Pitched Jandig at the Mozilla Festival and received the Mozilla Open Source Support Award."),
         ("2018 &middot; Shenzhen, China", "GOSH, Gathering for Open Science Hardware",
-         "Presented Rede InfoAmazonia, the open-source water monitoring network."),
+         "Presented Rede InfoAmazonia, the open-source water monitoring network, and gave my last performance as a VJ."),
         ("2016 &middot; Bogot&aacute;, Colombia", "Goodnight, Sleep Tight",
          "Created the 360&deg; video for the piece by the theatre company ZU-UK, at their invitation. I then traveled with it to the UK and Canada."),
         ("Aug 2013 &middot; Buenos Aires, Argentina", "Hacks/Hackers Media Party",
