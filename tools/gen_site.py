@@ -260,8 +260,6 @@ contact_block = section(
     '        <ul class="contact-list" style="max-width: 60ch;">\n' + "\n".join([
         channel(LINKEDIN, "LinkedIn", "Full career history and recommendations", "linkedin.com/in/vjpixel"),
         channel(GITHUB, "GitHub", "Open-source code and experiments", "github.com/vjpixel"),
-        channel("https://diar.ia.br", "diar.ia.br", "The AI newsletter I publish every weekday", "diar.ia.br"),
-        channel("https://jandig.app/", "Jandig", "The AR platform I founded", "jandig.app"),
     ]) + "\n        </ul>",
     head="Contact",
     lede="About product, AI, open source, or where they meet. The fastest way to reach me is a LinkedIn message.",
@@ -274,7 +272,7 @@ home = f"""    <section class="hero hero-home">
         <p class="eyebrow">Senior Product Manager &middot; AI, APIs and data products</p>
         <h1>I take products from zero to measurable business impact.</h1>
         <p class="lede">
-          Senior Product Manager with 10+ years building AI, XR and data-driven products,
+          I am a Senior Product Manager with 10+ years building AI, XR and data-driven products,
           at Amazon, AutoNation and in products of my own. Today I run a daily AI
           newsletter produced by a pipeline of AI agents that I built.
         </p>
@@ -296,20 +294,20 @@ home = f"""    <section class="hero hero-home">
     ("150K+", "people reached each month by diar.ia.br, across its own and partner audiences"),
 ])}
 {section(recog([
-    ("Anthropic &middot; 2026", "Selected for the Claude for Open Source Program."),
-    ("United Nations &middot; 2024", "Invited to represent Brazil at the OSPOs for Good Symposium."),
-    ("Mozilla &middot; 2018", "Open Source Support Award for Jandig."),
-    ("Google &middot; 2014", "Impact Challenge award for Rede InfoAmazonia."),
+    ("Anthropic &middot; 2026", "I was selected for the Claude for Open Source Program."),
+    ("United Nations &middot; 2024", "I was invited to represent Brazil at the OSPOs for Good Symposium."),
+    ("Mozilla &middot; 2018", "My project Jandig received the Open Source Support Award."),
+    ("Google &middot; 2014", "Rede InfoAmazonia, a project I conceived, received an Impact Challenge award."),
 ], cols4=True), head="Recognized by")}
 {section(cards([
     ("projects.html#diaria", "diar.ia.br Studio",
-     "A public multi-agent pipeline on Claude Code that takes each newsletter edition from research to scheduling."),
+     "A public multi-agent pipeline I built on Claude Code, which takes each newsletter edition from research to scheduling."),
     ("projects.html#spider", "Spider at Amazon",
      "An internal API product I took from prototype to product, with a three-year plan and 4.5x more impact in a year."),
     ("projects.html#jandig", "Jandig",
-     "An open-source augmented reality platform, awarded by Mozilla and used by artists, educators and NGOs."),
+     "The open-source augmented reality platform I created, awarded by Mozilla and used by artists, educators and NGOs."),
     ("projects.html#jeo", "Jeo",
-     "An open-source geojournalism platform for WordPress, adopted by newsrooms on three continents."),
+     "An open-source geojournalism platform for WordPress that I conceived, adopted by newsrooms on three continents."),
 ], linked=True), alt=True, head="Selected work",
    lede="Products I led inside companies, and products I started from nothing. Each one is a case study.")}
 {contact_block}"""
@@ -368,7 +366,7 @@ skills_html = "\n".join(
 )
 exp = (
     hero("Experience", "Product roles with numbers attached.",
-         "Ten-plus years in product, across media, industrial maintenance, e-commerce and automotive retail. "
+         "I have spent ten-plus years in product, across media, industrial maintenance, e-commerce and automotive retail. "
          "The pink dot marks memeLab, the open-source lab I ran in parallel for eleven years.",
          width="20ch")
     + section(timeline(jobs) + f"""
@@ -394,29 +392,29 @@ company_cases = "\n\n".join([
     case("Amazon / API product", "Spider", [
         ("Problem", "Amazon's supply chain software was built for the United States, where sales tax is added on top of the price. In Brazil, tax is part of the price, so it is a cost to the company, and it changes from state to state. The systems were miscalculating what it cost to ship a product from each warehouse."),
         ("My role", "When I joined, Spider was a project that touched a single supply chain system. I was hired to turn it into a product: an API that other systems consult to get that calculation right."),
-        ("What I did", "Wrote the product vision and a three-year plan, and PRFAQs for new features. Created a discovery framework and KPIs, and used the metrics to find new opportunities, such as better caching and new transfer routes. The product depended on many stakeholders, so I set up one communication mechanism per audience, from a short monthly report for leadership to weekly meetings with the direct team, aligning operations, business, tax, finance and technology."),
+        ("What I did", "I wrote the product vision and a three-year plan, and PRFAQs for new features. I created a discovery framework and KPIs, and used the metrics to find new opportunities, such as better caching and new transfer routes. The product depended on many stakeholders, so I set up one communication mechanism per audience, from a short monthly report for leadership to weekly meetings with the direct team, aligning operations, business, tax, finance and technology."),
         ("Outcome", "Spider increased Amazon Brazil's yearly profitability by USD 11MM, and its impact grew 4.5 times in one year. What I took from it: a product vision does most of the work of aligning stakeholders."),
     ], cid="spider"),
     case("AutoNation / Internal platform", "Configurable fee system", [
         ("Problem", "The fees charged by AutoNation's mobile service were hardcoded. Launching or changing a fee required engineering work."),
         ("My role", "It started as a single task. I interviewed stakeholders and grew it into a product vision. Having worked with tax at Amazon helped me make the case to leadership."),
-        ("What I did", "Designed a fee model that finance configures without code. A fee can apply to a whole repair order, a repair or a component; be a fixed amount or a percentage of the total, of labor or of parts; and follow rules by state, customer type, partner and validity dates. Permissions follow roles: finance creates fees, account managers assign them to fleets, and operations adjusts them on an order. I also wrote the role-based training, the launch announcement and the demo."),
+        ("What I did", "I designed a fee model that finance configures without code. A fee can apply to a whole repair order, a repair or a component; be a fixed amount or a percentage of the total, of labor or of parts; and follow rules by state, customer type, partner and validity dates. Permissions follow roles: finance creates fees, account managers assign them to fleets, and operations adjusts them on an order. I also wrote the role-based training, the launch announcement and the demo."),
         ("Outcome", "Launched in January 2025. Business teams now launch and adjust fees on their own, and fee-based revenue rose by up to 587%. On the same team I led the Mobile Service Partner API from zero to its first customer, including how quotes are exposed to partners: fully quoted, a price range, or pending."),
     ], cid="fees"),
     case("Stefanini Manufacturing / AI product discovery", "Watchtower", [
         ("Problem", "Watchtower was a proposed AI product for industrial maintenance. My job was discovery: find out whether the problem was real and whether the company could build a product that solved it."),
-        ("My role", "Product manager leading a team of five (developer, data scientist, sales, marketing and UX designer), presenting the status to C-level executives every month."),
-        ("What I did", "Ran nine months of discovery. Tested demand with landing pages and ads from the first week. Interviewed maintenance teams, which led us to pivot the problem we were solving. Wrote a product vision, ran a Lean Inception and designed an MVP simpler than first planned. Studied the market and the competition."),
-        ("Outcome", "The discovery showed that a competitive product needed an AI accuracy that depends on a volume of data the company did not have, in a market filling up with cheaper solutions. The product was discontinued before it was built, saving the cost of developing it."),
+        ("My role", "I was the product manager, leading a team of five (developer, data scientist, sales, marketing and UX designer) and presenting the status to C-level executives every month."),
+        ("What I did", "I ran nine months of discovery. I tested demand with landing pages and ads from the first week, and interviewed maintenance teams, which led us to pivot the problem we were solving. I wrote a product vision, ran a Lean Inception, designed an MVP simpler than first planned, and studied the market and the competition."),
+        ("Outcome", "The discovery showed that a competitive product needed an AI accuracy that depends on a volume of data the company did not have, in a market filling up with cheaper solutions. I advised the C-level to discontinue the product before it was built, saving the cost of developing it."),
     ], cid="watchtower"),
 ])
 
 proj_cases = "\n\n".join([
     case("AI agents / Open source", "diar.ia.br Studio", [
-        ("My role", "Founder and editor of diar.ia.br, a weekday AI newsletter in Portuguese. I designed and built the pipeline that produces it."),
+        ("My role", "I am the founder and editor of diar.ia.br, a weekday AI newsletter in Portuguese. I designed and built the pipeline that produces it."),
         ("Product", "A public production pipeline on Claude Code that takes each edition from research to scheduling in six stages, with human review at two of them. Each edition reviews about 300 articles and publishes nine, and goes out at 6 a.m., Monday to Friday."),
         ("How it works", "40 specialized AI agents and 44 skills, integrated with 20+ external APIs and 8 MCP servers. Built in TypeScript on Node, with typecheck, unit tests and an end-to-end smoke test on every pull request."),
-        ("Outcomes", "Automated the work previously done by a team member. The newsletter reaches 150,000+ people a month across its own audience and partner audiences."),
+        ("Outcomes", "I automated the work previously done by a team member. The newsletter reaches 150,000+ people a month across its own audience and partner audiences."),
     ], images=[
         ("diaria/diaria-01-edition-cover.jpg", "Cover illustration of a diar.ia.br edition"),
     ], link=[("https://github.com/vjpixel/diaria-studio", "Code on GitHub"), ("https://diar.ia.br", "diar.ia.br")], cid="diaria"),
@@ -483,7 +481,7 @@ proj = (
         ("memelab/memelab-01-narrative-navigation-app.jpg", "Narrative Navigation, an augmented reality app for urban wayfinding, created in a residency at NIMk in Amsterdam"),
         ("memelab/memelab-02-nowhere-everywhere-installation.jpg", "Coordenadas 31 15'15.53 N, 24 15'30.53 O (2019), a 360&deg; short film shown at festivals in France, Peru and Brazil"),
         ("memelab/memelab-03-new-old-games-pacman-projection.jpg", "New/Old Games, a giant projected Pac-Man controlled by body movement"),
-        ("memelab/memelab-04-goodnight-sleep-tight-performance.jpg", "Good Night, Sleep Tight, a virtual reality performance by ZU-UK, for which memeLab directed the 360&deg; video"),
+        ("memelab/memelab-04-goodnight-sleep-tight-performance.jpg", "Goodnight, Sleep Tight, a virtual reality performance by ZU-UK, for which memeLab directed the 360&deg; video"),
         ("memelab/memelab-05-festival-x-reality-vr-headset.jpg", "VR headset demo at the X-Reality festival"),
         ("memelab/memelab-06-mostra-clipes-360-marte-festival.jpg", "360&deg; video showcase at Festival MARTE"),
     ]) + """
@@ -499,15 +497,15 @@ page("projects.html", "Projects | Angelo Pixel",
 
 # ----------------------------------------------------------------- TALKS
 press = [
-    ("https://youtu.be/kpJGMomXe-U", "TEDx Talks, 2013", "Redescobrindo Games: VJ Pixel at TEDxSalvador (video)"),
-    ("https://blog.mozilla.org/en/mozilla/moss-2018-year-in-review/", "Mozilla Blog, 2019", "MOSS 2018 year in review, listing Jandig among the seed awards"),
-    ("", "Circuito Sesc de Artes, 2019", "Realidades aut&ocirc;nomas tempor&aacute;rias, on Jandig's tour of S&atilde;o Paulo state"),
-    ("https://desafiosocial.withgoogle.com/brazil2014/charity/associacao-o-eco", "Google Impact Challenge Brazil, 2014", "Project page for Rede InfoAmazonia, by Associa&ccedil;&atilde;o O Eco"),
-    ("https://ijnet.org/en/story/journalism-reloaded-buenos-aires-media-party", "IJNet, 2013", "On the Buenos Aires Media Party, where VJ Pixel showed MapPress"),
-    ("https://www.select.art.br/do-artista-ao-articulador/", "Revista Select, 2012", "Do artista ao articulador"),
-    ("https://www.select.art.br/jandig-culturadigitalbr/", "Revista Select, 2011", "Jandig #CulturaDigitalBR"),
-    ("https://www.vice.com/en/article/memelab-fly-the-flag-of-freedom-through-open-source", "VICE, 2011", "Profile of memeLab and VJ Pixel"),
-    ("", "Correio Braziliense, 2010", "Full-page interview: &quot;Brasil investe pouco em softwares livres&quot; (print)"),
+    ("https://youtu.be/kpJGMomXe-U", "TEDx Talks, 2013", "Watch my TEDx Salvador talk, &quot;Redescobrindo Games&quot; (video, in Portuguese)"),
+    ("https://blog.mozilla.org/en/mozilla/moss-2018-year-in-review/", "Mozilla Blog, 2019", "Read Mozilla's review of its 2018 open source awards, which lists Jandig"),
+    ("", "Circuito Sesc de Artes, 2019", "Article on Jandig's tour of S&atilde;o Paulo state, &quot;Realidades aut&ocirc;nomas tempor&aacute;rias&quot; (no longer online)"),
+    ("https://desafiosocial.withgoogle.com/brazil2014/charity/associacao-o-eco", "Google Impact Challenge Brazil, 2014", "See Google's page for Rede InfoAmazonia, one of the projects it funded (in Portuguese)"),
+    ("https://ijnet.org/en/story/journalism-reloaded-buenos-aires-media-party", "IJNet, 2013", "Read the report on the Buenos Aires Media Party, where I showed MapPress"),
+    ("https://www.select.art.br/do-artista-ao-articulador/", "Revista Select, 2012", "Read the magazine article &quot;Do artista ao articulador&quot; (in Portuguese)"),
+    ("https://www.select.art.br/jandig-culturadigitalbr/", "Revista Select, 2011", "Read the magazine article on Jandig, &quot;Jandig #CulturaDigitalBR&quot; (in Portuguese)"),
+    ("https://www.vice.com/en/article/memelab-fly-the-flag-of-freedom-through-open-source", "VICE, 2011", "Read the profile of memeLab and of my work with open source"),
+    ("", "Correio Braziliense, 2010", "Full-page interview with me, &quot;Brasil investe pouco em softwares livres&quot; (print only)"),
 ]
 press_html = '        <ul class="press-list">\n' + "\n".join(
     (f'          <li><span class="press-source">{src}</span> <a href="{href}" target="_blank" rel="noopener">{title}</a></li>'
@@ -538,43 +536,43 @@ talks = (
     ])
     + section(cards([
         ("May 2026 &middot; S&atilde;o Paulo, Brazil", "S&atilde;o Paulo Innovation Week",
-         "Panel &quot;XR Futures: Games, Art, and the Expansion of Immersive Worlds&quot;, with Almir Almas (USP) and Ana Arruda (XR curator), moderated by Daniel Lima."),
+         "I joined the panel &quot;XR Futures: Games, Art, and the Expansion of Immersive Worlds&quot;, with Almir Almas (USP) and Ana Arruda (XR curator), moderated by Daniel Lima."),
         ("Nov 2025 &middot; Barcelona, Spain", "Mozilla Festival",
-         "The installation &quot;Jandig - Brazilian Myths in Mixed Reality&quot;, accepted by the festival committee: the first public demo of Jandig's mixed reality viewer."),
+         "I showed the installation &quot;Jandig - Brazilian Myths in Mixed Reality&quot;, accepted by the festival committee: the first public demo of Jandig's mixed reality viewer."),
         ("Jul 2024 &middot; New York, USA", "OSPOs for Good, United Nations",
-         "Invited to the two-day symposium on open source at the UN Headquarters in New York, selected by a committee for a history of open collaboration and innovation."),
+         "I was invited to the two-day symposium on open source at the UN Headquarters in New York, selected by a committee for a history of open collaboration and innovation."),
         ("Since 2019 &middot; S&atilde;o Paulo, Brazil", "X-Reality USP",
-         "Creator and curator of the festival, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022, 2024 and 2026. I have been on the opening panel of every edition. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
+         "I created the festival and curate it, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022, 2024 and 2026. I have been on the opening panel of every edition. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
         ("Oct 2018 &middot; London, UK", "Mozilla Festival",
-         "Ran the session &quot;Jandig - augmented reality exhibition&quot; and pitched the project at the MOSS Speed Dating, receiving the Mozilla Open Source Support Award."),
+         "I ran the session &quot;Jandig - augmented reality exhibition&quot; and pitched the project at the MOSS Speed Dating, receiving the Mozilla Open Source Support Award."),
         ("Oct 2018 &middot; Shenzhen, China", "GOSH, Gathering for Open Science Hardware",
-         "Presented Rede InfoAmazonia, the open-source water monitoring network, and gave my last performance as a VJ."),
+         "I presented Rede InfoAmazonia, the open-source water monitoring network, and gave my last performance as a VJ."),
         ("Aug 2016 &middot; Lima, Peru", "Taller Observatorio",
-         "Gave a workshop at the meeting of a regional observatory of protected areas, a project with WWF."),
+         "I gave a workshop at the meeting of a regional observatory of protected areas, a project with WWF."),
         ("2016 &middot; Bogot&aacute;, Colombia", "Goodnight, Sleep Tight",
-         "Created the 360&deg; video for the piece by the theatre company ZU-UK, at their invitation. I then traveled with it to the UK and Canada."),
+         "I created the 360&deg; video for the piece by the theatre company ZU-UK, at their invitation. I then traveled with it to the UK and Canada."),
         ("Aug 2013 &middot; Buenos Aires, Argentina", "Hacks/Hackers Media Party",
-         "The talk &quot;The EcoLab, bringing innovation to environmental reporting&quot; and the workshop &quot;Using Jeo to create your own mapping platform&quot;."),
+         "I gave the talk &quot;The EcoLab, bringing innovation to environmental reporting&quot; and the workshop &quot;Using Jeo to create your own mapping platform&quot;."),
         ("Mar 2012 &middot; Amsterdam, Netherlands", "NIMk, Netherlands Media Art Institute",
-         "The talk &quot;Narrative navigation&quot;, during an artist residency."),
+         "I gave the talk &quot;Narrative navigation&quot;, during an artist residency."),
         ("2009 and 2010 &middot; New York, USA", "Open Video Conference",
-         "Joined the discussions in 2009. In 2010 I presented &quot;Open Video in Brazil&quot;, a study I carried out for Mozilla."),
+         "I joined the discussions in 2009. In 2010 I presented &quot;Open Video in Brazil&quot;, a study I carried out for Mozilla."),
         ("Mar 2010 &middot; Montevideo, Uruguay", "Campamento Latinoamericano de J&oacute;venes Activistas Sociales",
-         "A talk on free video."),
+         "I gave a talk on free video."),
         ("Feb 2009 &middot; Bangalore, India", "Info-Activism Camp",
-         "Workshops on video editing and on compressing and encoding video."),
-    ]) + '\n        <p class="section-note">Work also shown in France and Peru.</p>', head="Highlights")
+         "I taught workshops on video editing and on compressing and encoding video."),
+    ]) + '\n        <p class="section-note">My work was also shown in France and Peru.</p>', head="Highlights")
     + section(timeline([
         ("2015 to 2022", "XR, festivals and juries", "",
-         "The panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019), &quot;Audiovisual Expandido&quot; at Festival Criativar (2020) and &quot;Afetos Imersivos&quot; at X-Reality USP (2022); Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019); the VJing workshop &quot;Brincando de VJing&quot; at Sesc Osasco (2017).", [], False),
+         "I sat on the panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019), &quot;Audiovisual Expandido&quot; at Festival Criativar (2020) and &quot;Afetos Imersivos&quot; at X-Reality USP (2022). I also ran Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019) and the VJing workshop &quot;Brincando de VJing&quot; at Sesc Osasco (2017).", [], False),
         ("2013 to 2014", "Data journalism and open hardware", "",
-         "The TEDx Salvador talk &quot;Redescobrindo Games&quot;; Jeo workshops and three moderated debates on journalism and technology at Campus Party; a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),
+         "I gave the TEDx Salvador talk &quot;Redescobrindo Games&quot;, ran Jeo workshops and moderated three debates on journalism and technology at Campus Party, and taught a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),
         ("2012", "Jandig's busiest year", "",
-         "The talk &quot;Jandig: art in augmented reality&quot; and the panel &quot;Copyleft Cities&quot; at FISL (Porto Alegre); the SESC Sorocaba opening as an exhibiting artist (&quot;VideoPong&quot;, &quot;Electro-Organic Experiments&quot;); Campus Party; Circuito Vivo Arte.mov.", [], False),
+         "I gave the talk &quot;Jandig: art in augmented reality&quot; and sat on the panel &quot;Copyleft Cities&quot; at FISL (Porto Alegre), exhibited &quot;VideoPong&quot; and &quot;Electro-Organic Experiments&quot; at the SESC Sorocaba opening, and spoke at Campus Party and Circuito Vivo Arte.mov.", [], False),
         ("2009 to 2011", "Info-activism and VJing", "",
-         "Three sessions at FISL 11 in Porto Alegre, including the founding debate of the Free Video Alliance, and Campus Party in S&atilde;o Paulo.", [], False),
+         "I took part in three sessions at FISL 11 in Porto Alegre, including the founding debate of the Free Video Alliance, and spoke at Campus Party in S&atilde;o Paulo.", [], False),
         ("2002 to 2008", "Free-software beginnings", "",
-         "First talk in September 2002, in Salvador. A professional VJ career (2002 to 2018, &quot;retired&quot; after a performance in China); talks and workshops at FISL, Latinoware, the World Social Forum, and the Brazilian Digital Culture Forum.", [], False),
+         "I gave my first talk in September 2002, in Salvador. I worked as a professional VJ (2002 to 2018, &quot;retired&quot; after a performance in China) and gave talks and workshops at FISL, Latinoware, the World Social Forum, and the Brazilian Digital Culture Forum.", [], False),
     ]), alt=True, head="Two decades on stage")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
@@ -594,17 +592,16 @@ page("talks.html", "Talks | Angelo Pixel",
 # ----------------------------------------------------------- RECOGNITION
 recognition = (
     hero("Recognition", "Awards, programs, residencies and press.",
-         lede="What others have said and decided about the work, from 2006 to today.")
+         lede="What others have said and decided about my work, from 2006 to today.")
     + section(recog([
         ("2026", "Claude for Open Source Program, Anthropic, for Jandig."),
-        ("2024", "Invited by the United Nations to the OSPOs for Good Symposium."),
+        ("2024", "I was invited by the United Nations to the OSPOs for Good Symposium."),
         ("2018", "Mozilla Open Source Support Award, for Jandig."),
         ("2018", "Software Livres Culturais award, from the Brazilian Ministry of Culture, for Jandig."),
-        ("2020", "Member of the selection committee of ProAC Expresso LAB for games, virtual reality and augmented reality, S&atilde;o Paulo State."),
+        ("2020", "I sat on the selection committee of ProAC Expresso LAB for games, virtual reality and augmented reality, S&atilde;o Paulo State."),
         ("2015", "Hacker residency, Red Bull Basement."),
         ("2014", "Google Impact Challenge Brazil, for Rede InfoAmazonia."),
         ("2014", "Artist residency at Hangar, Barcelona (Chronica Mobilis)."),
-        ("2012", "SESC Sorocaba award, for &quot;Electro-Organic Experiments&quot;."),
         ("2012", "Nimk/Vivo Arte.mov artist residency (Brazil/Netherlands)."),
         ("2011", "CEMEC Creative Entrepreneurs award."),
         ("2006", "Est&uacute;dio Livre Collaboration Award."),
