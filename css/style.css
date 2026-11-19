@@ -827,6 +827,49 @@ a.teaser-card:hover .arrow {
   margin-top: 8px;
 }
 
+.press-featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.press-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: var(--space-2);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.press-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.press-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.press-card .press-source,
+.press-card .press-title {
+  padding: 0 var(--space-2);
+}
+
+.press-title {
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
 .press-list {
   list-style: none;
   padding: 0;

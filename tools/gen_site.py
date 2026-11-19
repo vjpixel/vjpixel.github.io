@@ -507,10 +507,22 @@ press = [
     ("https://www.vice.com/en/article/memelab-fly-the-flag-of-freedom-through-open-source", "VICE, 2011", "Read the profile of memeLab and of my work with open source"),
     ("", "Correio Braziliense, 2010", "Full-page interview with me, &quot;Brasil investe pouco em softwares livres&quot; (print only)"),
 ]
-press_html = '        <ul class="press-list">\n' + "\n".join(
+PRESS_IMG = {
+    "TEDx Talks, 2013": ("press/press-01-tedx-salvador-2013.jpg", "Angelo Pixel on stage at TEDx Salvador"),
+    "VICE, 2011": ("press/press-02-vice-2011.jpg", "VICE logo"),
+    "Google Impact Challenge Brazil, 2014": ("press/press-03-google-impact-challenge-2014.jpg", "Google.org Impact Challenge Brasil logo"),
+}
+press_html = '        <div class="press-featured">\n' + "\n".join(
+    f"""          <a class="press-card" href="{href}" target="_blank" rel="noopener">
+            <img src="assets/images/{PRESS_IMG[src][0]}" alt="{PRESS_IMG[src][1]}" loading="lazy" />
+            <span class="press-source">{src}</span>
+            <span class="press-title">{title}</span>
+          </a>"""
+    for href, src, title in press if src in PRESS_IMG
+) + '\n        </div>\n        <ul class="press-list">\n' + "\n".join(
     (f'          <li><span class="press-source">{src}</span> <a href="{href}" target="_blank" rel="noopener">{title}</a></li>'
      if href else f'          <li><span class="press-source">{src}</span> <span>{title}</span></li>')
-    for href, src, title in press
+    for href, src, title in press if src not in PRESS_IMG
 ) + "\n        </ul>"
 
 talks = (
