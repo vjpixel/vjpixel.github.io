@@ -547,6 +547,10 @@ talks = (
          "Creator and curator of the festival, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022, 2024 and 2026. I have been on the opening panel of every edition. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
         ("Nov 2018 &middot; London, UK", "Mozilla Festival",
          "Pitched Jandig at the Mozilla Festival and received the Mozilla Open Source Support Award."),
+        ("2018 &middot; Shenzhen, China", "GOSH, Gathering for Open Science Hardware",
+         "Presented Rede InfoAmazonia, the open-source water monitoring network."),
+        ("2016 &middot; Bogot&aacute;, Colombia", "Goodnight, Sleep Tight",
+         "Created the 360&deg; video for the piece by the theatre company ZU-UK, at their invitation. I then traveled with it to the UK and Canada."),
         ("Aug 2013 &middot; Buenos Aires, Argentina", "Hacks/Hackers Media Party",
          "The talk &quot;The EcoLab, bringing innovation to environmental reporting&quot; and the workshop &quot;Using Jeo to create your own mapping platform&quot;."),
         ("Mar 2012 &middot; Amsterdam, Netherlands", "NIMk, Netherlands Media Art Institute",
@@ -557,7 +561,7 @@ talks = (
          "A talk on free video."),
         ("Feb 2009 &middot; Bangalore, India", "Info-Activism Camp",
          "Workshops on video editing and on compressing and encoding video."),
-    ]) + '\n        <p class="section-note">Work also shown in Canada, France, Peru and the UK.</p>', head="Highlights")
+    ]) + '\n        <p class="section-note">Work also shown in France and Peru.</p>', head="Highlights")
     + section(timeline([
         ("2013 to 2014", "Data journalism and open hardware", "",
          "The TEDx Salvador talk &quot;Redescobrindo Games&quot;; Jeo workshops and three moderated debates on journalism and technology at Campus Party; a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),
