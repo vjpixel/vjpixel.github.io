@@ -452,7 +452,7 @@ proj_cases = "\n\n".join([
 
 more_projects = cards([
     ("2019 to today", "X-Reality USP",
-     "A festival of extended reality at the University of S&atilde;o Paulo, born from a partnership I proposed between USP and London's Raindance festival. I have been one of its curators since the first edition, through 2019, 2021, 2022 and 2024."),
+     "A festival of extended reality at the University of S&atilde;o Paulo, born from a partnership I proposed between USP and London's Raindance festival. I have been one of its curators since the first edition, through 2019, 2021, 2022 and 2024, and I joined the opening panel of the 2026 edition."),
     ("2025 to 2026", "Extended Mythology",
      'Brazilian myths such as Curupira and Saci retold in mixed reality as socio-environmental warnings, with an educational kit. Funded by S&atilde;o Paulo\'s ProAC program, it produced Jandig\'s open-source viewer for Meta Quest. <a href="https://jandig.app/me/" target="_blank" rel="noopener">jandig.app/me</a>'),
     ("2017", "AdvoHelp",
@@ -497,9 +497,13 @@ page("projects.html", "Projects | Angelo Pixel",
 # ----------------------------------------------------------------- TALKS
 press = [
     ("https://youtu.be/kpJGMomXe-U", "TEDx Talks, 2013", "Redescobrindo Games: VJ Pixel at TEDxSalvador (video)"),
-    ("https://circuito2019.sescsp.org.br/historias-da-cidade/2019/todas/realidades-autonomas-temporarias/", "Circuito Sesc de Artes, 2019", "Realidades aut&ocirc;nomas tempor&aacute;rias, on Jandig's tour of S&atilde;o Paulo state"),
+    ("https://blog.mozilla.org/en/mozilla/moss-2018-year-in-review/", "Mozilla Blog, 2019", "MOSS 2018 year in review, listing Jandig among the seed awards"),
+    ("", "Circuito Sesc de Artes, 2019", "Realidades aut&ocirc;nomas tempor&aacute;rias, on Jandig's tour of S&atilde;o Paulo state"),
+    ("https://desafiosocial.withgoogle.com/brazil2014/charity/associacao-o-eco", "Google Impact Challenge Brazil, 2014", "Project page for Rede InfoAmazonia, by Associa&ccedil;&atilde;o O Eco"),
+    ("https://ijnet.org/en/story/journalism-reloaded-buenos-aires-media-party", "IJNet, 2013", "On the Buenos Aires Media Party, where VJ Pixel showed MapPress"),
     ("https://www.select.art.br/do-artista-ao-articulador/", "Revista Select, 2012", "Do artista ao articulador"),
     ("https://www.select.art.br/jandig-culturadigitalbr/", "Revista Select, 2011", "Jandig #CulturaDigitalBR"),
+    ("https://www.vice.com/en/article/memelab-fly-the-flag-of-freedom-through-open-source", "VICE, 2011", "Profile of memeLab and VJ Pixel"),
     ("", "Correio Braziliense, 2010", "Full-page interview: &quot;Brasil investe pouco em softwares livres&quot; (print)"),
 ]
 press_html = '        <ul class="press-list">\n' + "\n".join(
@@ -530,14 +534,14 @@ talks = (
         ("TEDx", 'TEDx Salvador, 2013: &quot;Redescobrindo Games&quot; (<a href="https://youtu.be/kpJGMomXe-U" target="_blank" rel="noopener">watch the talk</a>)'),
     ])
     + section(cards([
-        ("Apr 2026", "S&atilde;o Paulo Innovation Week",
+        ("May 2026", "S&atilde;o Paulo Innovation Week",
          "Panel &quot;XR Futures: Games, Art, and the Expansion of Immersive Worlds&quot;, with Almir Almas (USP) and Ana Arruda (XR curator), moderated by Daniel Lima."),
         ("Nov 2025", "Mozilla Festival, Barcelona",
          "The installation &quot;Jandig - Brazilian Myths in Mixed Reality&quot;, accepted by the festival committee: the first public demo of Jandig's mixed reality viewer."),
         ("Jul 2024", "OSPOs for Good, United Nations",
          "Invited to the two-day symposium on open source at the UN Headquarters in New York, selected by a committee for a history of open collaboration and innovation."),
         ("Since 2019", "X-Reality USP",
-         "Creator and curator of the festival, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022 and 2024. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
+         "Creator and curator of the festival, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022 and 2024. At the 2026 edition I joined the opening panel. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
     ]), head="Recent highlights")
     + section(timeline([
         ("2013 to 2014", "Data journalism and open hardware", "",
