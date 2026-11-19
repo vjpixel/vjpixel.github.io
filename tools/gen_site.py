@@ -530,7 +530,7 @@ talks = (
       <div class="container hero-grid">
         <div class="hero-copy">
         <p class="eyebrow">Talks</p>
-        <h1>Twenty-four years of stages, VJ booths and classrooms.</h1>
+        <h1>Twenty-four years of stages, VJ booths and hackerspaces.</h1>
         <p class="lede">From free software and VJing to internationally awarded augmented reality.</p>
         </div>
         <figure class="hero-figure">
@@ -576,7 +576,7 @@ talks = (
     ]) + '\n        <p class="section-note">My work was also shown in France and Peru.</p>', head="Highlights")
     + section(cards([
         ("2011 to today", "XR and immersive media",
-         "From the talk &quot;Jandig: art in augmented reality&quot; at FISL (2012) to the panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019), &quot;Audiovisual Expandido&quot; at Festival Criativar (2020) and &quot;Afetos Imersivos&quot; at X-Reality USP (2022). I also ran Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019)."),
+         "From the talk &quot;Jandig: art in augmented reality&quot; at FISL (2012) to the panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019) and &quot;Audiovisual Expandido&quot; at Festival Criativar (2020). I also ran Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019)."),
         ("2002 to today", "Open source and free culture",
          "I gave my first talk in September 2002, in Salvador, on free software for VJing. Since then: the World Social Forum (2005), Latinoware, the Brazilian Digital Culture Forum, and FISL, where I took part in the founding debate of the Free Video Alliance (2010) and sat on the panel &quot;Copyleft Cities&quot; (2012)."),
         ("2013 to 2018", "Data journalism and open hardware",
