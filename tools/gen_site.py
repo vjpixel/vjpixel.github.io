@@ -549,6 +549,8 @@ talks = (
          "Ran the session &quot;Jandig - augmented reality exhibition&quot; and pitched the project at the MOSS Speed Dating, receiving the Mozilla Open Source Support Award."),
         ("Oct 2018 &middot; Shenzhen, China", "GOSH, Gathering for Open Science Hardware",
          "Presented Rede InfoAmazonia, the open-source water monitoring network, and gave my last performance as a VJ."),
+        ("Aug 2016 &middot; Lima, Peru", "Taller Observatorio",
+         "Gave a workshop at the meeting of a regional observatory of protected areas, a project with WWF."),
         ("2016 &middot; Bogot&aacute;, Colombia", "Goodnight, Sleep Tight",
          "Created the 360&deg; video for the piece by the theatre company ZU-UK, at their invitation. I then traveled with it to the UK and Canada."),
         ("Aug 2013 &middot; Buenos Aires, Argentina", "Hacks/Hackers Media Party",
