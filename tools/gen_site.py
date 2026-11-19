@@ -574,18 +574,17 @@ talks = (
         ("Feb 2009 &middot; Bangalore, India", "Info-Activism Camp",
          "I taught workshops on video editing and on compressing and encoding video."),
     ]) + '\n        <p class="section-note">My work was also shown in France and Peru.</p>', head="Highlights")
-    + section(timeline([
-        ("2015 to 2022", "XR, festivals and juries", "",
-         "I sat on the panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019), &quot;Audiovisual Expandido&quot; at Festival Criativar (2020) and &quot;Afetos Imersivos&quot; at X-Reality USP (2022). I also ran Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019) and the VJing workshop &quot;Brincando de VJing&quot; at Sesc Osasco (2017).", [], False),
-        ("2013 to 2014", "Data journalism and open hardware", "",
-         "I gave the TEDx Salvador talk &quot;Redescobrindo Games&quot;, ran Jeo workshops and moderated three debates on journalism and technology at Campus Party, and taught a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),
-        ("2012", "Jandig's busiest year", "",
-         "I gave the talk &quot;Jandig: art in augmented reality&quot; and sat on the panel &quot;Copyleft Cities&quot; at FISL (Porto Alegre), exhibited &quot;VideoPong&quot; and &quot;Electro-Organic Experiments&quot; at the SESC Sorocaba opening, and spoke at Campus Party and Circuito Vivo Arte.mov.", [], False),
-        ("2009 to 2011", "Info-activism and VJing", "",
-         "I took part in three sessions at FISL 11 in Porto Alegre, including the founding debate of the Free Video Alliance, and spoke at Campus Party in S&atilde;o Paulo.", [], False),
-        ("2002 to 2008", "Free-software beginnings", "",
-         "I gave my first talk in September 2002, in Salvador. I worked as a professional VJ (2002 to 2018, &quot;retired&quot; after a performance in China) and gave talks and workshops at FISL, Latinoware, the World Social Forum, and the Brazilian Digital Culture Forum.", [], False),
-    ]), alt=True, head="Two decades on stage")
+    + section(cards([
+        ("2011 to today", "XR and immersive media",
+         "From the talk &quot;Jandig: art in augmented reality&quot; at FISL (2012) to the panels &quot;A hora da XR (Extended Reality)&quot; at Festival Path (2019), &quot;Audiovisual Expandido&quot; at Festival Criativar (2020) and &quot;Afetos Imersivos&quot; at X-Reality USP (2022). I also ran Jandig workshops across S&atilde;o Paulo state with Circuito Sesc de Artes (2019)."),
+        ("2002 to today", "Open source and free culture",
+         "I gave my first talk in September 2002, in Salvador, on free software for VJing. Since then: the World Social Forum (2005), Latinoware, the Brazilian Digital Culture Forum, and FISL, where I took part in the founding debate of the Free Video Alliance (2010) and sat on the panel &quot;Copyleft Cities&quot; (2012)."),
+        ("2013 to 2018", "Data journalism and open hardware",
+         "I ran Jeo workshops and moderated three debates on journalism and technology at Campus Party (2014), and taught a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco (2014)."),
+        ("2002 to 2018", "Games and live visuals",
+         "I worked as a professional VJ for sixteen years. Along the way: the TEDx Salvador talk &quot;Redescobrindo Games&quot; (2013), the works &quot;VideoPong&quot; and &quot;Electro-Organic Experiments&quot; at the SESC Sorocaba opening (2012), and the workshop &quot;Brincando de VJing&quot; at Sesc Osasco (2017)."),
+    ]), alt=True, head="What I talk about",
+        lede="The 150+ talks and workshops fall into four themes. The events abroad are in the highlights above.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
