@@ -552,7 +552,7 @@ talks = (
         ("Mar 2012 &middot; Amsterdam, Netherlands", "NIMk, Netherlands Media Art Institute",
          "The talk &quot;Narrative navigation&quot;, during an artist residency."),
         ("2009 and 2010 &middot; New York, USA", "Open Video Conference",
-         "Joined the discussions in 2009 and came back in 2010 for the panel &quot;Open Video in Brazil&quot;."),
+         "Joined the discussions in 2009. In 2010 I presented &quot;Open Video in Brazil&quot;, a study I carried out for Mozilla."),
         ("Mar 2010 &middot; Montevideo, Uruguay", "Campamento Latinoamericano de J&oacute;venes Activistas Sociales",
          "A talk on free video."),
         ("Feb 2009 &middot; Bangalore, India", "Info-Activism Camp",
