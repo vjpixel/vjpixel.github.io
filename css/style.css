@@ -668,6 +668,12 @@ a.teaser-card:hover .arrow {
   font-size: 0.97rem;
 }
 
+.section-note {
+  margin-top: var(--space-4);
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
 .case-link {
   margin-top: var(--space-2);
   font-weight: 600;
@@ -914,7 +920,7 @@ a.teaser-card:hover .arrow {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .nav-links {
     position: fixed;
     inset: 64px 0 auto 0;
@@ -934,7 +940,9 @@ a.teaser-card:hover .arrow {
   .nav-toggle {
     display: inline-block;
   }
+}
 
+@media (max-width: 760px) {
   .contact-list a {
     flex-direction: column;
     align-items: flex-start;

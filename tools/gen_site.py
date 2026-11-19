@@ -9,6 +9,7 @@ NAV = [
     ("experience.html", "Experience"),
     ("projects.html", "Projects"),
     ("talks.html", "Talks"),
+    ("recognition.html", "Recognition"),
     ("about.html", "About"),
     ("index.html#contact", "Contact"),
 ]
@@ -373,7 +374,8 @@ exp = (
     + section(timeline(jobs) + f"""
         <div class="btn-row" style="margin-top: var(--space-4);">
           <a class="btn btn-secondary" href="{LINKEDIN}" target="_blank" rel="noopener">Full history on LinkedIn</a>
-          <a class="btn btn-secondary" href="talks.html">Awards and talks</a>
+          <a class="btn btn-secondary" href="recognition.html">Awards and press</a>
+          <a class="btn btn-secondary" href="talks.html">Talks</a>
         </div>""", flush=True)
     + section(skills_html, alt=True, head="Skills")
     + section(cards([
@@ -452,7 +454,7 @@ proj_cases = "\n\n".join([
 
 more_projects = cards([
     ("2019 to today", "X-Reality USP",
-     "A festival of extended reality at the University of S&atilde;o Paulo, born from a partnership I proposed between USP and London's Raindance festival. I have been one of its curators since the first edition, through 2019, 2021, 2022 and 2024, and I joined the opening panel of the 2026 edition."),
+     "A festival of extended reality at the University of S&atilde;o Paulo, born from a partnership I proposed between USP and London's Raindance festival. I have been one of its curators since the first edition, and on the opening panel of every edition: 2019, 2021, 2022, 2024 and 2026."),
     ("2025 to 2026", "Extended Mythology",
      'Brazilian myths such as Curupira and Saci retold in mixed reality as socio-environmental warnings, with an educational kit. Funded by S&atilde;o Paulo\'s ProAC program, it produced Jandig\'s open-source viewer for Meta Quest. <a href="https://jandig.app/me/" target="_blank" rel="noopener">jandig.app/me</a>'),
     ("2017", "AdvoHelp",
@@ -486,7 +488,8 @@ proj = (
         ("memelab/memelab-06-mostra-clipes-360-marte-festival.jpg", "360&deg; video showcase at Festival MARTE"),
     ]) + """
         <div class="btn-row" style="margin-top: var(--space-3);">
-          <a class="btn btn-secondary" href="talks.html">See talks, awards and residencies</a>
+          <a class="btn btn-secondary" href="talks.html">See talks</a>
+          <a class="btn btn-secondary" href="recognition.html">See awards and press</a>
         </div>""", alt=True, head="memeLab experiments",
         lede="memeLab, the extended reality lab I ran from 2009 to 2020, produced 10+ experiments across AR, VR and MR. A few records:")
 )
@@ -516,7 +519,7 @@ talks = (
     """    <section class="hero hero-tight hero-talks">
       <div class="container hero-grid">
         <div class="hero-copy">
-        <p class="eyebrow">Talks and recognition</p>
+        <p class="eyebrow">Talks</p>
         <h1>Twenty-four years of stages, VJ booths and classrooms.</h1>
         <p class="lede">From free software and VJing to internationally awarded augmented reality.</p>
         </div>
@@ -534,25 +537,60 @@ talks = (
         ("TEDx", 'TEDx Salvador, 2013: &quot;Redescobrindo Games&quot; (<a href="https://youtu.be/kpJGMomXe-U" target="_blank" rel="noopener">watch the talk</a>)'),
     ])
     + section(cards([
-        ("May 2026", "S&atilde;o Paulo Innovation Week",
+        ("May 2026 &middot; S&atilde;o Paulo, Brazil", "S&atilde;o Paulo Innovation Week",
          "Panel &quot;XR Futures: Games, Art, and the Expansion of Immersive Worlds&quot;, with Almir Almas (USP) and Ana Arruda (XR curator), moderated by Daniel Lima."),
-        ("Nov 2025", "Mozilla Festival, Barcelona",
+        ("Nov 2025 &middot; Barcelona, Spain", "Mozilla Festival",
          "The installation &quot;Jandig - Brazilian Myths in Mixed Reality&quot;, accepted by the festival committee: the first public demo of Jandig's mixed reality viewer."),
-        ("Jul 2024", "OSPOs for Good, United Nations",
+        ("Jul 2024 &middot; New York, USA", "OSPOs for Good, United Nations",
          "Invited to the two-day symposium on open source at the UN Headquarters in New York, selected by a committee for a history of open collaboration and innovation."),
-        ("Since 2019", "X-Reality USP",
-         "Creator and curator of the festival, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022 and 2024. At the 2026 edition I joined the opening panel. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
-    ]), head="Recent highlights")
+        ("Since 2019 &middot; S&atilde;o Paulo, Brazil", "X-Reality USP",
+         "Creator and curator of the festival, in partnership with the Raindance Film Festival, with editions in 2019, 2021, 2022, 2024 and 2026. I have been on the opening panel of every edition. For Festival MARTE I curated a showcase of 360&deg; music videos in partnership with X-Reality."),
+        ("Nov 2018 &middot; London, UK", "Mozilla Festival",
+         "Pitched Jandig at the Mozilla Festival and received the Mozilla Open Source Support Award."),
+        ("2018 &middot; Shenzhen, China", "GOSH, Gathering for Open Science Hardware",
+         "Presented Rede InfoAmazonia, the open-source water monitoring network, and gave my last performance as a VJ."),
+        ("2016 &middot; Bogot&aacute;, Colombia", "Goodnight, Sleep Tight",
+         "Created the 360&deg; video for the piece by the theatre company ZU-UK, at their invitation. I then traveled with it to the UK and Canada."),
+        ("Aug 2013 &middot; Buenos Aires, Argentina", "Hacks/Hackers Media Party",
+         "The talk &quot;The EcoLab, bringing innovation to environmental reporting&quot; and the workshop &quot;Using Jeo to create your own mapping platform&quot;."),
+        ("Mar 2012 &middot; Amsterdam, Netherlands", "NIMk, Netherlands Media Art Institute",
+         "The talk &quot;Narrative navigation&quot;, during an artist residency."),
+        ("2009 and 2010 &middot; New York, USA", "Open Video Conference",
+         "Joined the discussions in 2009. In 2010 I presented &quot;Open Video in Brazil&quot;, a study I carried out for Mozilla."),
+        ("Mar 2010 &middot; Montevideo, Uruguay", "Campamento Latinoamericano de J&oacute;venes Activistas Sociales",
+         "A talk on free video."),
+        ("Feb 2009 &middot; Bangalore, India", "Info-Activism Camp",
+         "Workshops on video editing and on compressing and encoding video."),
+    ]) + '\n        <p class="section-note">Work also shown in France and Peru.</p>', head="Highlights")
     + section(timeline([
         ("2013 to 2014", "Data journalism and open hardware", "",
-         "The TEDx Salvador talk &quot;Redescobrindo Games&quot;; a talk on the EcoLab and a Jeo workshop at the Hacks/Hackers Media Party in Buenos Aires; Jeo workshops at Campus Party; a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),
+         "The TEDx Salvador talk &quot;Redescobrindo Games&quot;; Jeo workshops and three moderated debates on journalism and technology at Campus Party; a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),
         ("2012", "Jandig's busiest year", "",
-         "The talk &quot;Jandig: art in augmented reality&quot; and the panel &quot;Copyleft Cities&quot; at FISL (Porto Alegre); a talk on Narrative Navigation at NIMk in Amsterdam; the SESC Sorocaba opening as an exhibiting artist (&quot;VideoPong&quot;, &quot;Electro-Organic Experiments&quot;); Campus Party; Circuito Vivo Arte.mov.", [], False),
+         "The talk &quot;Jandig: art in augmented reality&quot; and the panel &quot;Copyleft Cities&quot; at FISL (Porto Alegre); the SESC Sorocaba opening as an exhibiting artist (&quot;VideoPong&quot;, &quot;Electro-Organic Experiments&quot;); Campus Party; Circuito Vivo Arte.mov.", [], False),
         ("2009 to 2011", "Info-activism and VJing", "",
-         "Video workshops at the Info-Activism Camp in Bangalore, India; the Open Video Conference in New York in 2009 and 2010, the second time on the panel &quot;Open Video in Brazil&quot;; a talk on free video in Montevideo; FISL 11 and Campus Party in Porto Alegre and S&atilde;o Paulo.", [], False),
+         "Three sessions at FISL 11 in Porto Alegre, including the founding debate of the Free Video Alliance, and Campus Party in S&atilde;o Paulo.", [], False),
         ("2002 to 2008", "Free-software beginnings", "",
          "First talk in September 2002, in Salvador. A professional VJ career (2002 to 2018, &quot;retired&quot; after a performance in China); talks and workshops at FISL, Latinoware, the World Social Forum, and the Brazilian Digital Culture Forum.", [], False),
     ]), alt=True, head="Two decades on stage")
+    + section(mosaic([
+        ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
+        ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
+        ("jandig/jandig-07-narrativas-territoriais-ouro-preto.jpg", "Urban intervention in Ouro Preto (Territorial Narratives)"),
+        ("jandig/jandig-08-exposicao-itinerante-sesc.jpg", "Jandig's traveling exhibit at a SESC cultural center"),
+        ("jandig/jandig-09-criancas-cubos-ra.jpg", "Kids playing with AR marker cubes at a traveling workshop"),
+        ("jandig/jandig-10-colecao-remexe-grupo.jpg", "Remexe collection: upcycled clothing tagged with AR markers"),
+        ("jandig/jandig-11-campus-party-palestra.jpg", "A talk on stage at Campus Party"),
+        ("jandig/jandig-12-silkscreen-oficina.jpg", "Silkscreen workshop printing Jandig's visual identity"),
+    ]), head="Field notes")
+)
+page("talks.html", "Talks | Angelo Pixel",
+     "150+ talks and workshops on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
+     talks)
+
+# ----------------------------------------------------------- RECOGNITION
+recognition = (
+    hero("Recognition", "Awards, programs, residencies and press.",
+         lede="What others have said and decided about the work, from 2006 to today.")
     + section(recog([
         ("2026", "Claude for Open Source Program, Anthropic, for Jandig."),
         ("2024", "Invited by the United Nations to the OSPOs for Good Symposium."),
@@ -567,20 +605,10 @@ talks = (
         ("2006", "Est&uacute;dio Livre Collaboration Award."),
     ]), head="Awards, programs and residencies")
     + section(press_html, alt=True, head="In the press and on video")
-    + section(mosaic([
-        ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
-        ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
-        ("jandig/jandig-07-narrativas-territoriais-ouro-preto.jpg", "Urban intervention in Ouro Preto (Territorial Narratives)"),
-        ("jandig/jandig-08-exposicao-itinerante-sesc.jpg", "Jandig's traveling exhibit at a SESC cultural center"),
-        ("jandig/jandig-09-criancas-cubos-ra.jpg", "Kids playing with AR marker cubes at a traveling workshop"),
-        ("jandig/jandig-10-colecao-remexe-grupo.jpg", "Remexe collection: upcycled clothing tagged with AR markers"),
-        ("jandig/jandig-11-campus-party-palestra.jpg", "A talk on stage at Campus Party"),
-        ("jandig/jandig-12-silkscreen-oficina.jpg", "Silkscreen workshop printing Jandig's visual identity"),
-    ]), head="Field notes")
 )
-page("talks.html", "Talks and awards | Angelo Pixel",
-     "150+ talks and workshops on four continents since 2002, including TEDx, plus awards from Mozilla, Google and others.",
-     talks)
+page("recognition.html", "Recognition | Angelo Pixel",
+     "Awards, programs and residencies from Anthropic, the United Nations, Mozilla and Google, plus press coverage and video.",
+     recognition)
 
 # ----------------------------------------------------------------- ABOUT
 about_text = """        <p>As a child, I opened an Atari cartridge and, with the help of some cables, plugged it straight into the power socket. The cartridge broke and my home's power went out. It is my first memory of failure. Many more came later, and they guide my successes.</p>
