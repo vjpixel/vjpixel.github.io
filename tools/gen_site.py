@@ -9,6 +9,7 @@ NAV = [
     ("experience.html", "Experience"),
     ("projects.html", "Projects"),
     ("talks.html", "Talks"),
+    ("recognition.html", "Recognition"),
     ("about.html", "About"),
     ("index.html#contact", "Contact"),
 ]
@@ -373,7 +374,8 @@ exp = (
     + section(timeline(jobs) + f"""
         <div class="btn-row" style="margin-top: var(--space-4);">
           <a class="btn btn-secondary" href="{LINKEDIN}" target="_blank" rel="noopener">Full history on LinkedIn</a>
-          <a class="btn btn-secondary" href="talks.html">Awards and talks</a>
+          <a class="btn btn-secondary" href="recognition.html">Awards and press</a>
+          <a class="btn btn-secondary" href="talks.html">Talks</a>
         </div>""", flush=True)
     + section(skills_html, alt=True, head="Skills")
     + section(cards([
@@ -486,7 +488,8 @@ proj = (
         ("memelab/memelab-06-mostra-clipes-360-marte-festival.jpg", "360&deg; video showcase at Festival MARTE"),
     ]) + """
         <div class="btn-row" style="margin-top: var(--space-3);">
-          <a class="btn btn-secondary" href="talks.html">See talks, awards and residencies</a>
+          <a class="btn btn-secondary" href="talks.html">See talks</a>
+          <a class="btn btn-secondary" href="recognition.html">See awards and press</a>
         </div>""", alt=True, head="memeLab experiments",
         lede="memeLab, the extended reality lab I ran from 2009 to 2020, produced 10+ experiments across AR, VR and MR. A few records:")
 )
@@ -516,7 +519,7 @@ talks = (
     """    <section class="hero hero-tight hero-talks">
       <div class="container hero-grid">
         <div class="hero-copy">
-        <p class="eyebrow">Talks and recognition</p>
+        <p class="eyebrow">Talks</p>
         <h1>Twenty-four years of stages, VJ booths and classrooms.</h1>
         <p class="lede">From free software and VJing to internationally awarded augmented reality.</p>
         </div>
@@ -565,6 +568,25 @@ talks = (
         ("2002 to 2008", "Free-software beginnings", "",
          "First talk in September 2002, in Salvador. A professional VJ career (2002 to 2018, &quot;retired&quot; after a performance in China); talks and workshops at FISL, Latinoware, the World Social Forum, and the Brazilian Digital Culture Forum.", [], False),
     ]), alt=True, head="Two decades on stage")
+    + section(mosaic([
+        ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
+        ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
+        ("jandig/jandig-07-narrativas-territoriais-ouro-preto.jpg", "Urban intervention in Ouro Preto (Territorial Narratives)"),
+        ("jandig/jandig-08-exposicao-itinerante-sesc.jpg", "Jandig's traveling exhibit at a SESC cultural center"),
+        ("jandig/jandig-09-criancas-cubos-ra.jpg", "Kids playing with AR marker cubes at a traveling workshop"),
+        ("jandig/jandig-10-colecao-remexe-grupo.jpg", "Remexe collection: upcycled clothing tagged with AR markers"),
+        ("jandig/jandig-11-campus-party-palestra.jpg", "A talk on stage at Campus Party"),
+        ("jandig/jandig-12-silkscreen-oficina.jpg", "Silkscreen workshop printing Jandig's visual identity"),
+    ]), head="Field notes")
+)
+page("talks.html", "Talks | Angelo Pixel",
+     "150+ talks and workshops on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
+     talks)
+
+# ----------------------------------------------------------- RECOGNITION
+recognition = (
+    hero("Recognition", "Awards, programs, residencies and press.",
+         lede="What others have said and decided about the work, from 2006 to today.")
     + section(recog([
         ("2026", "Claude for Open Source Program, Anthropic, for Jandig."),
         ("2024", "Invited by the United Nations to the OSPOs for Good Symposium."),
@@ -579,20 +601,10 @@ talks = (
         ("2006", "Est&uacute;dio Livre Collaboration Award."),
     ]), head="Awards, programs and residencies")
     + section(press_html, alt=True, head="In the press and on video")
-    + section(mosaic([
-        ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
-        ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
-        ("jandig/jandig-07-narrativas-territoriais-ouro-preto.jpg", "Urban intervention in Ouro Preto (Territorial Narratives)"),
-        ("jandig/jandig-08-exposicao-itinerante-sesc.jpg", "Jandig's traveling exhibit at a SESC cultural center"),
-        ("jandig/jandig-09-criancas-cubos-ra.jpg", "Kids playing with AR marker cubes at a traveling workshop"),
-        ("jandig/jandig-10-colecao-remexe-grupo.jpg", "Remexe collection: upcycled clothing tagged with AR markers"),
-        ("jandig/jandig-11-campus-party-palestra.jpg", "A talk on stage at Campus Party"),
-        ("jandig/jandig-12-silkscreen-oficina.jpg", "Silkscreen workshop printing Jandig's visual identity"),
-    ]), head="Field notes")
 )
-page("talks.html", "Talks and awards | Angelo Pixel",
-     "150+ talks and workshops on four continents since 2002, including TEDx, plus awards from Mozilla, Google and others.",
-     talks)
+page("recognition.html", "Recognition | Angelo Pixel",
+     "Awards, programs and residencies from Anthropic, the United Nations, Mozilla and Google, plus press coverage and video.",
+     recognition)
 
 # ----------------------------------------------------------------- ABOUT
 about_text = """        <p>As a child, I opened an Atari cartridge and, with the help of some cables, plugged it straight into the power socket. The cartridge broke and my home's power went out. It is my first memory of failure. Many more came later, and they guide my successes.</p>
