@@ -557,7 +557,7 @@ talks = (
          "A talk on free video."),
         ("Feb 2009 &middot; Bangalore, India", "Info-Activism Camp",
          "Workshops on video editing and on compressing and encoding video."),
-    ]), head="Highlights")
+    ]) + '\n        <p class="section-note">Work also shown in Canada, France, Peru and the UK.</p>', head="Highlights")
     + section(timeline([
         ("2013 to 2014", "Data journalism and open hardware", "",
          "The TEDx Salvador talk &quot;Redescobrindo Games&quot;; Jeo workshops and three moderated debates on journalism and technology at Campus Party; a DustDuino workshop at an environmental journalists' meeting hosted at Google in San Francisco.", [], False),

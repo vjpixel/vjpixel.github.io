@@ -668,6 +668,12 @@ a.teaser-card:hover .arrow {
   font-size: 0.97rem;
 }
 
+.section-note {
+  margin-top: var(--space-4);
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
 .case-link {
   margin-top: var(--space-2);
   font-weight: 600;
