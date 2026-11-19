@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Angelo Pixel</title>
-  <meta name="description" content="Case studies of open-source and independent products: diar.ia.br Studio, Jandig, Jeo and Rede InfoAmazonia." />
+  <meta name="description" content="Case studies: Spider at Amazon, the AutoNation fee system, Watchtower, diar.ia.br Studio, Jandig, Jeo and Rede InfoAmazonia." />
   <link rel="canonical" href="https://vjpixel.github.io/projects.html" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Projects | Angelo Pixel" />
-  <meta property="og:description" content="Case studies of open-source and independent products: diar.ia.br Studio, Jandig, Jeo and Rede InfoAmazonia." />
+  <meta property="og:description" content="Case studies: Spider at Amazon, the AutoNation fee system, Watchtower, diar.ia.br Studio, Jandig, Jeo and Rede InfoAmazonia." />
   <meta property="og:url" content="https://vjpixel.github.io/projects.html" />
   <meta property="og:image" content="https://vjpixel.github.io/assets/images/angelo-pixel.jpg" />
   <meta name="theme-color" content="#06090c" />
@@ -41,13 +41,100 @@
     <section class="hero hero-tight">
       <div class="container">
         <p class="eyebrow">Projects</p>
-        <h1 style="max-width: 20ch;">Products I started from nothing.</h1>
-        <p class="lede">Open source and independent work: no client deadlines, only curiosity, community and the drive to see an idea work. For the products I led inside companies, see <a href="experience.html">Experience</a>.</p>
+        <h1 style="max-width: 20ch;">Case studies, from Amazon to open source.</h1>
+        <p class="lede">The problem, what I decided and what came of it. Company cases leave out confidential figures: the numbers shown are the ones on my r&eacute;sum&eacute;, in <a href="experience.html">Experience</a>.</p>
       </div>
     </section>
     <section class="section" style="padding-top: 0;">
       <div class="container">
-        <article id="diaria" class="case-study no-media">
+        <div class="section-head">
+          <h2>Product work at companies</h2>
+        </div>
+        <article id="spider" class="case-study no-media">
+          <div class="case-copy">
+            <span class="case-tag">Amazon / API product</span>
+            <h3>Spider</h3>
+            <div class="case-blocks">
+              <div class="case-block">
+                <h4>Problem</h4>
+                <p>Amazon's supply chain software was built for the United States, where sales tax is added on top of the price. In Brazil, tax is part of the price, so it is a cost to the company, and it changes from state to state. The systems were miscalculating what it cost to ship a product from each warehouse.</p>
+              </div>
+              <div class="case-block">
+                <h4>My role</h4>
+                <p>When I joined, Spider was a project that touched a single supply chain system. I was hired to turn it into a product: an API that other systems consult to get that calculation right.</p>
+              </div>
+              <div class="case-block">
+                <h4>What I did</h4>
+                <p>Wrote the product vision and a three-year plan, and PRFAQs for new features. Created a discovery framework and KPIs, and used the metrics to find new opportunities, such as better caching and new transfer routes. The product depended on many stakeholders, so I set up one communication mechanism per audience, from a short monthly report for leadership to weekly meetings with the direct team, aligning operations, business, tax, finance and technology.</p>
+              </div>
+              <div class="case-block">
+                <h4>Outcome</h4>
+                <p>Spider increased Amazon Brazil's yearly profitability by USD 11MM, and its impact grew 4.5 times in one year. What I took from it: a product vision does most of the work of aligning stakeholders.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="fees" class="case-study no-media">
+          <div class="case-copy">
+            <span class="case-tag">AutoNation / Internal platform</span>
+            <h3>Configurable fee system</h3>
+            <div class="case-blocks">
+              <div class="case-block">
+                <h4>Problem</h4>
+                <p>The fees charged by AutoNation's mobile service were hardcoded. Launching or changing a fee required engineering work.</p>
+              </div>
+              <div class="case-block">
+                <h4>My role</h4>
+                <p>It started as a single task. I interviewed stakeholders and grew it into a product vision. Having worked with tax at Amazon helped me make the case to leadership.</p>
+              </div>
+              <div class="case-block">
+                <h4>What I did</h4>
+                <p>Designed a fee model that finance configures without code. A fee can apply to a whole repair order, a repair or a component; be a fixed amount or a percentage of the total, of labor or of parts; and follow rules by state, customer type, partner and validity dates. Permissions follow roles: finance creates fees, account managers assign them to fleets, and operations adjusts them on an order. I also wrote the role-based training, the launch announcement and the demo.</p>
+              </div>
+              <div class="case-block">
+                <h4>Outcome</h4>
+                <p>Launched in January 2025. Business teams now launch and adjust fees on their own, and fee-based revenue rose by up to 587%. On the same team I led the Mobile Service Partner API from zero to its first customer, including how quotes are exposed to partners: fully quoted, a price range, or pending.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="watchtower" class="case-study no-media">
+          <div class="case-copy">
+            <span class="case-tag">Stefanini Manufacturing / AI product discovery</span>
+            <h3>Watchtower</h3>
+            <div class="case-blocks">
+              <div class="case-block">
+                <h4>Problem</h4>
+                <p>Watchtower was a proposed AI product for industrial maintenance. My job was discovery: find out whether the problem was real and whether the company could build a product that solved it.</p>
+              </div>
+              <div class="case-block">
+                <h4>My role</h4>
+                <p>Product manager leading a team of five (developer, data scientist, sales, marketing and UX designer), presenting the status to C-level executives every month.</p>
+              </div>
+              <div class="case-block">
+                <h4>What I did</h4>
+                <p>Ran nine months of discovery. Tested demand with landing pages and ads from the first week. Interviewed maintenance teams, which led us to pivot the problem we were solving. Wrote a product vision, ran a Lean Inception and designed an MVP simpler than first planned. Studied the market and the competition.</p>
+              </div>
+              <div class="case-block">
+                <h4>Outcome</h4>
+                <p>The discovery showed that a competitive product needed an AI accuracy that depends on a volume of data the company did not have, in a market filling up with cheaper solutions. The product was discontinued before it was built, saving the cost of developing it.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Products I started</h2>
+        </div>
+        <article id="diaria" class="case-study">
+          <div class="case-media single">
+              <img src="assets/images/diaria/diaria-01-edition-cover.jpg" alt="Cover illustration of a diar.ia.br edition" loading="lazy" />
+          </div>
           <div class="case-copy">
             <span class="case-tag">AI agents / Open source</span>
             <h3>diar.ia.br Studio</h3>
@@ -58,7 +145,7 @@
               </div>
               <div class="case-block">
                 <h4>Product</h4>
-                <p>A public production pipeline on Claude Code that takes each edition from research to scheduling in six stages, with human review at two of them.</p>
+                <p>A public production pipeline on Claude Code that takes each edition from research to scheduling in six stages, with human review at two of them. Each edition reviews about 300 articles and publishes nine, and goes out at 6 a.m., Monday to Friday.</p>
               </div>
               <div class="case-block">
                 <h4>How it works</h4>
@@ -69,7 +156,7 @@
                 <p>Automated the work previously done by a team member. The newsletter reaches 150,000+ people a month across its own audience and partner audiences.</p>
               </div>
             </div>
-            <p class="case-link"><a href="https://github.com/vjpixel/diaria-studio" target="_blank" rel="noopener">Code on GitHub &rarr;</a></p>
+            <p class="case-link"><a href="https://github.com/vjpixel/diaria-studio" target="_blank" rel="noopener">Code on GitHub &rarr;</a> &nbsp;&middot;&nbsp; <a href="https://diar.ia.br" target="_blank" rel="noopener">diar.ia.br &rarr;</a></p>
           </div>
         </article>
 
@@ -88,26 +175,29 @@
             <div class="case-blocks">
               <div class="case-block">
                 <h4>My role</h4>
-                <p>I conceived, prototyped and pitched Jandig at MozFest in London, winning a Mozilla Seed Award. I have led its development and its presence at festivals and exhibitions ever since.</p>
+                <p>I started Jandig in 2011: researched its feasibility, negotiated the first two exhibitions, and ran weekly meetings with a small group that built the app, the website and an open call for digital artworks. In 2018 I pitched it at MozFest in London, winning a Mozilla Seed Award. I still lead product, community and technical coordination.</p>
               </div>
               <div class="case-block">
                 <h4>Product</h4>
-                <p>An open-source augmented reality platform built for end users: anyone can create and publish AR artworks without writing code. It has been used to tell Brazilian mythology through immersive experiences.</p>
+                <p>An open-source augmented reality platform for people who do not code. It runs in a standard mobile browser, with no app to install, and a first-time user takes about 12 minutes to publish a work.</p>
               </div>
               <div class="case-block">
                 <h4>Evolution</h4>
-                <p>From the London pitch to stages and exhibitions in Brazil and Europe, most recently Mozilla Festival 2025 in Barcelona. <a href="talks.html">See the talks</a>.</p>
+                <p>The first marker was pasted in November 2011. Low-cost phones of the time could not keep up, so the team paused the project and resumed it in 2017. The platform launched in 2019. In 2025 we began a mixed reality viewer for Meta Quest, first shown at Mozilla Festival in Barcelona. <a href="talks.html">See the talks</a>.</p>
               </div>
               <div class="case-block">
                 <h4>Outcomes</h4>
-                <p>Mozilla Open Source Support Award (2018). Software Livres Culturais award from the Brazilian Ministry of Culture (2018). Selected by Anthropic for the Claude for Open Source Program (2026). Peak of 3,300 daily users.</p>
+                <p>More than 7,200 active users in the 12 months to July 2026. Used in a Rosas de Ouro carnival parade in S&atilde;o Paulo at the invitation of USP, by more than 200 UEMG students over three years, and in a Sesc arts circuit across nine cities. Mozilla Open Source Support Award and Software Livres Culturais award (2018). Selected by Anthropic for the Claude for Open Source Program (2026).</p>
               </div>
             </div>
-            <p class="case-link"><a href="https://jandig.app/" target="_blank" rel="noopener">jandig.app &rarr;</a></p>
+            <p class="case-link"><a href="https://jandig.app/" target="_blank" rel="noopener">jandig.app &rarr;</a> &nbsp;&middot;&nbsp; <a href="https://github.com/memeLab/Jandig" target="_blank" rel="noopener">Code on GitHub &rarr;</a></p>
           </div>
         </article>
 
-        <article id="jeo" class="case-study no-media">
+        <article id="jeo" class="case-study reverse">
+          <div class="case-media single">
+              <img src="assets/images/jeo/jeo-01-infoamazonia-home-2015.jpg" alt="InfoAmazonia home page in 2015, built on Jeo" loading="lazy" />
+          </div>
           <div class="case-copy">
             <span class="case-tag">Geojournalism / Open-source platform</span>
             <h3>Jeo</h3>
@@ -122,41 +212,99 @@
               </div>
               <div class="case-block">
                 <h4>Evolution</h4>
-                <p>Before, InfoAmazonia ran on a manual Jekyll-based system that generated static content published straight to a Git repository, without even a search box. With no budget to maintain a proprietary platform long term, I proposed an open-source WordPress theme and a community around it. That became Jeo.</p>
+                <p>Before, InfoAmazonia ran on a manual Jekyll-based system that generated static content published straight to a Git repository, without even a search box. With no budget to maintain a proprietary platform long term, I proposed an open-source WordPress theme and a community around it, so that the cost of maintenance would be shared. That became Jeo.</p>
               </div>
               <div class="case-block">
                 <h4>Outcomes</h4>
-                <p>InfoAmazonia's pageviews grew by up to 400% in one year. Jeo was adopted by newsrooms on three continents, including Oxpeckers (South Africa), Ekuatorial (Indonesia) and InfoNile (Nile Basin). It is still maintained as a WordPress plugin, and InfoAmazonia still runs on it.</p>
+                <p>InfoAmazonia's pageviews grew by up to 400% in one year. In its first year, Jeo was forked by 10 developers and gave rise to five new geojournalism platforms. I coordinated its adaptation for newsrooms on three continents, including Ekuatorial (Indonesia), LandQuest (Kenya) and Oxpeckers (South Africa); InfoNile (Nile Basin) adopted it later. It is still maintained as a WordPress plugin, and InfoAmazonia still runs on it.</p>
               </div>
             </div>
             <p class="case-link"><a href="https://github.com/InfoAmazonia/jeo-plugin" target="_blank" rel="noopener">Jeo on GitHub &rarr;</a></p>
           </div>
         </article>
 
-        <article id="rede" class="case-study no-media">
+        <article id="rede" class="case-study">
+          <div class="case-media">
+            <div class="gallery">
+              <img src="assets/images/rede/rede-01-mae-dagua-sensor.jpg" alt="M&atilde;e d'&Aacute;gua sensor number 2 installed on a water tank" loading="lazy" />
+              <img src="assets/images/rede/rede-02-site-sensor-map.jpg" alt="Rede InfoAmazonia website with the map of sensors around Santar&eacute;m" loading="lazy" />
+              <img src="assets/images/rede/rede-03-pedra-branca-water-tower.jpg" alt="Community water tower at Pedra Branca, one of the monitored sites" loading="lazy" />
+              <img src="assets/images/rede/rede-04-site-water-supply.jpg" alt="Map of access to water supply in the Amazon states on the project website" loading="lazy" />
+            </div>
+          </div>
           <div class="case-copy">
             <span class="case-tag">Open hardware / IoT</span>
             <h3>Rede InfoAmazonia</h3>
             <div class="case-blocks">
               <div class="case-block">
                 <h4>My role</h4>
-                <p>I conceived and led the project inside InfoAmazonia, coordinating hardware development and the funding strategy.</p>
+                <p>The idea was mine. I presented it to the InfoAmazonia team, led the proposal submitted to Google, planned the project, hired the team, managed hardware and software development, led the test deployment and managed the partnerships.</p>
               </div>
               <div class="case-block">
                 <h4>Product</h4>
-                <p>An open-source IoT platform for real-time water monitoring in the Amazon: low-cost sensors publishing open data about the region's rivers.</p>
+                <p>M&atilde;e d'&Aacute;gua, an open-source, modular device that measures water quality every hour (pH, ORP, conductivity and temperature) and sends the data over the mobile network. The software was designed for three audiences: an API for developers, a web interface with history for scientists, and SMS alerts for communities. The device cost under USD 2,000 when the cheapest commercial equipment for real-time monitoring cost more than USD 4,000.</p>
               </div>
               <div class="case-block">
                 <h4>Evolution</h4>
-                <p>One of the 10 projects funded among 800+ applicants to Google Impact Challenge Brazil 2014. The open approach inspired a group in China to build their own version of the system, which took me there to present the project.</p>
+                <p>One of the 10 projects funded among 800+ applicants to Google Impact Challenge Brazil 2014. A specialist told me that giving communities a direct verdict on their water was not feasible, so I changed the scope: the sensors raise an alert, and a partner university laboratory tests the water. In late 2015, the communities themselves installed the equipment at 18 points in three cities in Par&aacute;; two more went to S&atilde;o Paulo.</p>
               </div>
               <div class="case-block">
                 <h4>Outcomes</h4>
-                <p>The Google funding sustained the project for two years. The work involved six universities and led to a master's dissertation and a spin-off product.</p>
+                <p>The Google funding sustained the project for two years. The technology was used in research at six Brazilian public universities and institutes and in a master's thesis, and it inspired groups in Spain and China to build their own open-source water monitors. I was invited to present it at open science events in Brazil, Chile, China and the USA.</p>
               </div>
             </div>
+            <p class="case-link"><a href="https://github.com/InfoAmazonia/rede-hardware" target="_blank" rel="noopener">Hardware on GitHub &rarr;</a> &nbsp;&middot;&nbsp; <a href="https://youtu.be/4t60jJCaQEM" target="_blank" rel="noopener">Video &rarr;</a></p>
           </div>
         </article>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>More projects</h2>
+        </div>
+        <div class="teaser-grid">
+          <div class="teaser-card">
+            <span class="timeline-period">2019 to today</span>
+            <h3>X-Reality USP</h3>
+            <p>A festival of extended reality at the University of S&atilde;o Paulo, born from a partnership I proposed between USP and London's Raindance festival. I have been one of its curators since the first edition, through 2019, 2021, 2022 and 2024.</p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2025 to 2026</span>
+            <h3>Extended Mythology</h3>
+            <p>Brazilian myths such as Curupira and Saci retold in mixed reality as socio-environmental warnings, with an educational kit. Funded by S&atilde;o Paulo's ProAC program, it produced Jandig's open-source viewer for Meta Quest. <a href="https://jandig.app/me/" target="_blank" rel="noopener">jandig.app/me</a></p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2017</span>
+            <h3>AdvoHelp</h3>
+            <p>A legal-tech startup with an app that finds, in real time, a lawyer who is already at the courthouse. As CTO, I led the proposal that took it into the Lemonade pre-accelerator, where it won the Best Team award.</p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2015</span>
+            <h3>Rede C&oacute;digo Urbano</h3>
+            <p>Built during the Red Bull Basement hacker residency: a platform that brings air and water monitoring together, drawing on my earlier sensor projects. <a href="https://github.com/vjpixel/rcu" target="_blank" rel="noopener">Code on GitHub</a></p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2014</span>
+            <h3>Chronica Mobilis</h3>
+            <p>A geolocated interactive performance with game dynamics, created by a team of Brazilian and Spanish artists during a residency at Hangar, in Barcelona. Teams in the streets and at a base rebuild a character's memories.</p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2012 to 2013</span>
+            <h3>Incubadora</h3>
+            <p>A theater play in which the audience steers the narrative from their phones. memeLab directed the technology and built the app.</p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2011</span>
+            <h3>Photolink</h3>
+            <p>Photos sent by the public, projected as a mosaic by 24 projectors along more than 100 meters at S&atilde;o Paulo's Virada Cultural.</p>
+          </div>
+          <div class="teaser-card">
+            <span class="timeline-period">2004 to 2010</span>
+            <h3>Public-sector digital inclusion</h3>
+            <p>Brazilian federal and state programs: Cultura Digital at the Ministry of Culture, Casa Brasil, Territ&oacute;rios Digitais and AcessaSP. I helped design projects and coordinated technology teams and workshops in several states.</p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section section-alt">
@@ -167,20 +315,20 @@
         </div>
         <div class="mosaic-grid">
           <div class="mosaic-item">
-            <img src="assets/images/memelab/memelab-01-narrative-navigation-app.jpg" alt="Narrative Navigation, an augmented reality app for urban wayfinding" loading="lazy" />
-            <p class="mosaic-caption">Narrative Navigation, an augmented reality app for urban wayfinding</p>
+            <img src="assets/images/memelab/memelab-01-narrative-navigation-app.jpg" alt="Narrative Navigation, an augmented reality app for urban wayfinding, created in a residency at NIMk in Amsterdam" loading="lazy" />
+            <p class="mosaic-caption">Narrative Navigation, an augmented reality app for urban wayfinding, created in a residency at NIMk in Amsterdam</p>
           </div>
           <div class="mosaic-item">
-            <img src="assets/images/memelab/memelab-02-nowhere-everywhere-installation.jpg" alt="Nowhere and Everywhere at the Same Time, a dance installation with William Forsythe, shot in 360&deg;" loading="lazy" />
-            <p class="mosaic-caption">Nowhere and Everywhere at the Same Time, a dance installation with William Forsythe, shot in 360&deg;</p>
+            <img src="assets/images/memelab/memelab-02-nowhere-everywhere-installation.jpg" alt="Coordenadas 31 15'15.53 N, 24 15'30.53 O (2019), a 360&deg; short film shown at festivals in France, Peru and Brazil" loading="lazy" />
+            <p class="mosaic-caption">Coordenadas 31 15'15.53 N, 24 15'30.53 O (2019), a 360&deg; short film shown at festivals in France, Peru and Brazil</p>
           </div>
           <div class="mosaic-item">
             <img src="assets/images/memelab/memelab-03-new-old-games-pacman-projection.jpg" alt="New/Old Games, a giant projected Pac-Man controlled by body movement" loading="lazy" />
             <p class="mosaic-caption">New/Old Games, a giant projected Pac-Man controlled by body movement</p>
           </div>
           <div class="mosaic-item">
-            <img src="assets/images/memelab/memelab-04-goodnight-sleep-tight-performance.jpg" alt="Good Night, Sleep Tight, a virtual reality performance" loading="lazy" />
-            <p class="mosaic-caption">Good Night, Sleep Tight, a virtual reality performance</p>
+            <img src="assets/images/memelab/memelab-04-goodnight-sleep-tight-performance.jpg" alt="Good Night, Sleep Tight, a virtual reality performance by ZU-UK, for which memeLab directed the 360&deg; video" loading="lazy" />
+            <p class="mosaic-caption">Good Night, Sleep Tight, a virtual reality performance by ZU-UK, for which memeLab directed the 360&deg; video</p>
           </div>
           <div class="mosaic-item">
             <img src="assets/images/memelab/memelab-05-festival-x-reality-vr-headset.jpg" alt="VR headset demo at the X-Reality festival" loading="lazy" />

@@ -793,6 +793,67 @@ a.teaser-card:hover .arrow {
   margin: 0;
 }
 
+/* ---------- Single-image case media, talk photo, press list ---------- */
+.case-media.single {
+  aspect-ratio: 16 / 10;
+}
+
+.hero-talks .hero-grid {
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
+}
+
+.hero-figure {
+  margin: 0;
+}
+
+.hero-figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+}
+
+.hero-figure figcaption {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin-top: 8px;
+}
+
+.press-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 78ch;
+}
+
+.press-list li {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.press-list li:last-child {
+  border-bottom: none;
+}
+
+.press-source {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  padding-top: 3px;
+}
+
+.teaser-card p a {
+  white-space: nowrap;
+}
+
+
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .stat-strip {
@@ -828,6 +889,19 @@ a.teaser-card:hover .arrow {
   .hero-about .hero-grid {
     grid-template-columns: 1fr;
     gap: var(--space-3);
+  }
+
+  .hero-talks .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-figure {
+    max-width: 280px;
+  }
+
+  .press-list li {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .hero-photo {
