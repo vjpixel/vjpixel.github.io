@@ -668,7 +668,7 @@ talks = (
     </section>
 """
     + stats([
-        ("150+", "talks and workshops since 2002"),
+        ("220+", "talks, workshops, exhibitions and performances since 2002"),
         ("4", "continents where I have presented work"),
         ("4", "artist residencies abroad (Netherlands, Spain, UK, Colombia)"),
         ("TEDx", 'TEDx Salvador, 2013: &quot;Redescobrindo Games&quot; (<a href="https://youtu.be/kpJGMomXe-U" target="_blank" rel="noopener">watch the talk</a>)'),
@@ -732,7 +732,7 @@ talks = (
     ]), head="Field notes")
 )
 page("talks.html", "Talks | Angelo Pixel",
-     "150+ talks and workshops on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
+     "220+ talks, workshops, exhibitions and performances on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
      talks)
 
 # ----------------------------------------------------------- RECOGNITION
