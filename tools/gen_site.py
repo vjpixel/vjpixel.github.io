@@ -647,10 +647,10 @@ def activities_html():
                    '            <ul class="act-list">\n' + "\n".join(items) + "\n            </ul>\n          </details>")
     out.append("        </div>")
     out.append(ACT_SCRIPT)
-    return len(rows), "\n".join(out)
+    return len(rows), "\n".join(out), order[-1]
 
 
-ACT_N, ACT_HTML = activities_html()
+ACT_N, ACT_HTML, ACT_FIRST = activities_html()
 
 talks = (
     """    <section class="hero hero-tight hero-talks">
@@ -719,7 +719,7 @@ talks = (
     ]), alt=True, head="What I talk about",
         lede="The 150+ talks and workshops fall into five themes. The events abroad are in the highlights above.")
     + section(ACT_HTML, head="Full list",
-        lede=f"The {ACT_N} activities I could confirm with a source, from 2000 to 2026. Open a year, or filter by kind of activity. Titles are in the language they were given in.")
+        lede=f"The {ACT_N} activities I could confirm with a source, from {ACT_FIRST} to 2026. Open a year, or filter by kind of activity. Titles are in the language they were given in.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
