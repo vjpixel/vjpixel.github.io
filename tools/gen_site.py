@@ -534,28 +534,119 @@ def esc(t):
              .replace('"', "&quot;"))
 
 
+ACT_GROUPS = [
+    ("talks", "Talks", {"Talk", "Keynote", "Guest lecture", "Presentation", "Pitch", "Session"}),
+    ("workshops", "Workshops and courses", {"Workshop", "Course"}),
+    ("panels", "Panels and discussions", {"Panel", "Discussion", "Moderation", "Interview"}),
+    ("art", "Exhibitions and residencies", {"Exhibition", "Installation", "Performance", "Residency"}),
+    ("vj", "VJ sets", {"VJ set"}),
+    ("org", "Organizing and curation", {"Organization", "Curation", "Jury", "Technology direction", "Collaboration"}),
+]
+ACT_OPEN_YEARS = 2
+
+ACT_SCRIPT = """        <script>
+        (function () {
+          var root = document.getElementById('activities');
+          if (!root) return;
+          var bar = root.querySelector('.act-filters');
+          var status = root.querySelector('.act-status');
+          var years = [].slice.call(root.querySelectorAll('.act-year'));
+          var total = root.querySelectorAll('.act-list li').length;
+          var group = 'all', abroad = false;
+          bar.hidden = false;
+          function apply() {
+            var shown = 0, filtered = group !== 'all' || abroad;
+            years.forEach(function (y) {
+              var n = 0;
+              [].forEach.call(y.querySelectorAll('li'), function (li) {
+                var ok = (group === 'all' || li.dataset.g === group) && (!abroad || li.dataset.a === '1');
+                li.hidden = !ok;
+                if (ok) n++;
+              });
+              y.hidden = n === 0;
+              y.querySelector('.act-count').textContent = n;
+              if (filtered) y.open = true;
+              shown += n;
+            });
+            status.textContent = filtered ? 'Showing ' + shown + ' of ' + total : '';
+          }
+          bar.addEventListener('click', function (e) {
+            var b = e.target.closest('button');
+            if (!b) return;
+            if (b.dataset.g) {
+              group = b.dataset.g;
+              [].forEach.call(bar.querySelectorAll('button[data-g]'), function (x) {
+                x.setAttribute('aria-pressed', x === b ? 'true' : 'false');
+              });
+            } else if (b.dataset.abroad) {
+              abroad = !abroad;
+              b.setAttribute('aria-pressed', abroad ? 'true' : 'false');
+            } else if (b.dataset.all) {
+              var open = b.dataset.all === 'open';
+              years.forEach(function (y) { y.open = open; });
+              return;
+            }
+            apply();
+          });
+          root.querySelector('.act-jump').addEventListener('click', function (e) {
+            var a = e.target.closest('a');
+            if (!a) return;
+            var y = document.getElementById(a.getAttribute('href').slice(1));
+            if (y) y.open = true;
+          });
+        })();
+        </script>"""
+
+
 def activities_html():
-    """Full list of confirmed activities, newest year first, from tools/activities.txt."""
-    rows = [l.rstrip("\n").split("|") for l in
+    """Full list of confirmed activities from tools/activities.txt.
+
+    One <details> per year, newest first, with year shortcuts. The filters are
+    added by script; without it the page is the same list, unfiltered.
+    """
+    rows = [l.split("|") for l in
             (Path(__file__).parent / "activities.txt").read_text(encoding="utf-8").splitlines() if l]
+    group_of = {t: key for key, _label, types in ACT_GROUPS for t in types}
     years = {}
     for r in rows:
         years.setdefault(r[0][:4], []).append(r)
-    out = []
-    for y in sorted(years, reverse=True):
+    order = sorted(years, reverse=True)
+    counts = {key: sum(1 for r in rows if group_of[r[3]] == key) for key, _l, _t in ACT_GROUPS}
+    abroad_n = sum(1 for r in rows if r[5] == "1")
+
+    chips = [f'<button type="button" data-g="all" aria-pressed="true">All <span>{len(rows)}</span></button>']
+    chips += [f'<button type="button" data-g="{key}" aria-pressed="false">{label} <span>{counts[key]}</span></button>'
+              for key, label, _t in ACT_GROUPS]
+    out = ['        <div id="activities">',
+           '          <div class="act-filters" hidden>',
+           '            <div class="act-chips" role="group" aria-label="Filter by kind of activity">'
+           + "".join(chips) + "</div>",
+           '            <div class="act-chips">'
+           f'<button type="button" data-abroad="1" aria-pressed="false">Outside Brazil <span>{abroad_n}</span></button>'
+           '<button type="button" class="act-plain" data-all="open">Expand all</button>'
+           '<button type="button" class="act-plain" data-all="close">Collapse all</button>'
+           '<span class="act-status" aria-live="polite"></span></div>',
+           "          </div>",
+           '          <nav class="act-jump" aria-label="Jump to a year">'
+           + "".join(f'<a href="#y{y}">{y}</a>' for y in order) + "</nav>"]
+    for i, y in enumerate(order):
         items = []
-        for date, place, event, typ, title in sorted(years[y], key=lambda r: r[0], reverse=True):
+        for date, place, event, typ, title, abroad in sorted(years[y], key=lambda r: r[0], reverse=True):
             parts = date.split("-")
             when = MONTHS[int(parts[1]) - 1] if len(parts) > 1 else ""
             if len(parts) > 2:
                 when += " " + str(int(parts[2]))
-            what = esc(typ) + (": " + esc(title) if title else "")
+            what = f'<span class="act-type">{esc(typ)}</span>' + (" " + esc(title) if title else "")
             where = f'<span class="act-place">, {esc(place)}</span>' if place else ""
-            items.append(f'            <li><span class="act-date">{when}</span>'
-                         f'<span class="act-body"><strong>{esc(event)}</strong>{where}'
-                         f'<br><span class="act-what">{what}</span></span></li>')
-        out.append(f'        <div class="act-year">\n          <h3>{y} <span class="act-count">{len(years[y])}</span></h3>\n'
-                   f'          <ul class="act-list">\n' + "\n".join(items) + "\n          </ul>\n        </div>")
+            items.append(f'              <li data-g="{group_of[typ]}" data-a="{abroad}"><span class="act-date">{when}</span>'
+                         f'<span class="act-body"><span class="act-what">{what}</span>'
+                         f'<br><span class="act-event">{esc(event)}</span>{where}</span></li>')
+        is_open = " open" if i < ACT_OPEN_YEARS else ""
+        out.append(f'          <details class="act-year" id="y{y}"{is_open}>\n'
+                   f'            <summary><span class="act-y">{y}</span> <span class="act-count">{len(years[y])}</span></summary>\n'
+                   '            <ul class="act-list">\n' + "\n".join(items) + "\n            </ul>\n          </details>")
+    out.append("        </div>")
+    out.append(ACT_SCRIPT)
     return len(rows), "\n".join(out)
 
 
@@ -628,7 +719,7 @@ talks = (
     ]), alt=True, head="What I talk about",
         lede="The 150+ talks and workshops fall into five themes. The events abroad are in the highlights above.")
     + section(ACT_HTML, head="Full list",
-        lede=f"The {ACT_N} activities I could confirm with a source, from 2000 to 2026: talks, workshops, panels, VJ sets, exhibitions, residencies and the events I helped organize. Titles are in the language they were given in.")
+        lede=f"The {ACT_N} activities I could confirm with a source, from 2000 to 2026. Open a year, or filter by kind of activity. Titles are in the language they were given in.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),

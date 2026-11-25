@@ -1,7 +1,7 @@
 """Builds tools/activities.txt (English, public) from the private event list.
 
 Usage: python tools/import_activities.py <path to dados.txt> tools/activities.txt
-Only confirmed rows are imported. Output fields: date|place|event|type|title
+Only confirmed rows are imported. Output fields: date|place|event|type|title|abroad (1 or 0)
 """
 import io
 import re
@@ -164,7 +164,7 @@ for line in io.open(SRC, encoding="utf-8"):
     f = line.rstrip("\n").split("|")
     if len(f) != 10 or f[7] != "c":
         continue
-    data, local, _pais, evento, tipo, titulo, papel = f[:7]
+    data, local, pais, evento, tipo, titulo, papel = f[:7]
     if any(data == d and evento.startswith(e) for d, e in SKIP):
         continue
     typ = "Keynote" if "keynote" in papel else TYPES[tipo]
@@ -173,7 +173,8 @@ for line in io.open(SRC, encoding="utf-8"):
         typ, ti = ti.split("::", 1)
     for a, b in EVENTS:
         evento = evento.replace(a, b)
-    row = [data, place(local), evento, typ, ti]
+    abroad = "0" if pais in ("Brasil", "n/i", "online") else "1"
+    row = [data, place(local), evento, typ, ti, abroad]
     assert not any("|" in x or "—" in x for x in row), row
     out.append(row)
 
