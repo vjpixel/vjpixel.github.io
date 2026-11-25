@@ -1,245 +1,224 @@
-2000-11||XXVII Jornada de Cinema da Bahia|Organization|production intern
-2000-12||Mercado Cultural|Organization|production intern
-2000-12||III Festival de Cinema Pan-Africano|Organization|production assistant
-2001-11||Mercado Cultural|Organization|production assistant
-2002-09|Salvador, BA|V Seminários Integrados, Faculdade Ruy Barbosa|Talk|"Softwares para video jockeying"
-2003-05|Salvador, BA|Imagens Sonoras, Instituto Cultural Brasil-Alemanha|Discussion|"A estética das imagens em ambientes de música eletrônica"
-2003-10|Salvador, BA|I Festival GNU/Linux de Salvador|Talk|"Produção multimídia em softwares livres"
-2003-10||Mercado Cultural|Organization|IT coordination
-2004-02|Salvador, BA|Faculdade Ruy Barbosa|Talk|"Software Livre"
-2004-06|Porto Alegre, RS|V FISL, lançamento do Creative Commons Brasil|VJ set|VJ at Gilberto Gil's concert
-2004-08|Salvador, BA|Faculdade Ruy Barbosa|Talk|"Software Livre"
-2004-08||Digitofagia|Organization|coordination
-2004-08|São Paulo, SP|VJBR I, Encontro Brasileiro de Visual Jockeys|Organization|production coordination, as founder of the VJBR network
-2004-09|São Paulo, SP|SESC Pompéia|Workshop|"Tribo Wiki"
-2004-10|São Paulo, SP|VJBR I (MIS)|Talk|"VJing com softwares livres"
-2004-11|São Paulo, SP|Resfest|Talk|"Produção multimídia em softwares livres"
-2005-01|Vitória, Rio de Janeiro, São Paulo, Florianópolis, Curitiba and Porto Alegre|Caravana da Comunicação|Talk|"Produção multimídia em softwares livres"
-2005-01|Vitória, Rio de Janeiro, São Paulo, Florianópolis, Curitiba and Porto Alegre|Caravana da Comunicação|Organization|executive production
-2005-01|Porto Alegre, RS|Fórum Social Mundial|Talk|"Produção multimídia em softwares livres"
-2005-02|Belo Horizonte, MG|Carnaval Revolução|Talk|"Produção multimídia em softwares livres"
-2005-03|Salvador, BA|II Festival Software Livre da Bahia|Talk|"Cultura digital nos Pontos de Cultura"
-2005-08|Aracaju, SE|Encontro de Pontos de Cultura do Nordeste|Workshop|"Edição de vídeo em softwares livres"
-2005-11|Brazlândia, DF|Encontro de Conhecimentos Livres dos Pontos de Cultura do Centro-Oeste|Workshop|"Edição de vídeo em softwares livres"
-2006-02|Belo Horizonte, MG|Carnaval Revolução|Talk|"Estúdio Livre"
-2006-02|Porto Alegre, RS|FISL, Festival Criei, Tive Como!|VJ set|VJ set and festival organizing
-2006-07|Salvador, BA|Câmara Municipal de Salvador|Discussion|"Inclusão digital"
-2006-07|Salvador, BA|Festa Social de Fazenda Coutos|Workshop|"MetaReciclagem"
-2006-08|Salvador, BA|III Festival Software Livre da Bahia|Talk|"Projeto Casa Brasil"
-2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"MetaReciclagem"
-2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"Projeto Casa Brasil"
-2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"Estúdio Livre"
-2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"LiVES"
-2006-10|Goiânia, GO|3º Fórum Goiano de Software Livre|Workshop|"MetaReciclagem"
-2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"Enlightenment DR17"
-2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"Projeto Casa Brasil"
-2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"LiVES"
-2007-01|Rio de Janeiro, RJ|5ª Bienal de Arte, Ciência e Cultura da UNE|Discussion|"Inclusão digital e tecnologia na educação"
-2007-01|Porto Alegre, RS|FISL 8, TV Criei, Tive Como!|VJ set|
-2007-01|Porto Alegre, RS|FISL 8, TV Criei, Tive Como!|Organization|coordination of TV Criei, Tive Como!
-2007-04|Porto Alegre, RS|FISL 8|Discussion|"Edição de vídeo em software livre, em que pé estamos? Pra onde vamos?"
-2007-06|Salvador, BA|ECCO, Encontro de Cultura Colaborativa|Talk|"Produção multimídia em softwares livres"
-2007-09|Cuiabá, MT|Festival Calango de Artes Integradas|Discussion|"Software livre e música independente"
-2007-10|Brasília, DF|Semana Ginga Brasil|Workshop|"Produção de conteúdo para TV digital"
-2007-11|Belo Horizonte, MG|Teia 2007|Workshop|"MetaReciclagem"
-2007-11|Foz do Iguaçu, PR|Latinoware 2007 (IV Conferência Latinoamericana de Software Livre)|Talk|"MetaReciclagem"
-2007-11|Salvador, BA|6ª Oficina para Inclusão Digital|Workshop|"MetaReciclagem"
-2008-04|Porto Alegre, RS|FISL 9|Workshop|"Panorama do vídeo em Software Livre"
-2008-04|Porto Alegre, RS|FISL 9|Organization|collaboration on the Arena Arte Livre
-2008-08|Brasília, DF|CONSEGI 2008|Workshop|"Streaming de vídeo com software livre"
-2009-01|São Paulo, SP|Campus Party Brasil 2009|Workshop|"Laboratório de novas interfaces"
-2009-02|Bangalore, India|Info-Activism Camp (Tactical Tech)|Workshop|"Video editing"
-2009-02|Bangalore, India|Info-Activism Camp (Tactical Tech)|Workshop|"Compressing and encoding"
-2009-04-29|São Paulo, SP|Coletivo Digital|Discussion|"Cultura livre e novas formas de proteção autoral"
-2009-06|Porto Alegre, RS|FISL 10|Discussion|"Open Video Alliance"
-2009-06|New York, USA|Open Video Conference 2009|Discussion|discussions, representing Brazil and the LiVES project
-2009-08|Brasília, DF|CONSEGI 2009|Workshop|"Interfaces e interatividade"
-2009-08|Brasília, DF|CONSEGI 2009|Workshop|"Edição de vídeos com LiVES"
-2009-08|Brasília, DF|CONSEGI 2009|Installation|"VideoPong"
-2009-10|Santos, SP|Cibercultura 10+10|Workshop|"Remix de vídeo ao vivo"
-2009-10|Santos, SP|Cibercultura 10+10|Organization|coordination of technology and live streaming
-2009-10|São Paulo, SP|Seminário Internacional do Fórum da Cultura Digital Brasileira (MinC)|Organization|coordination of the online video platform and live streaming
-2009-11|São Paulo, SP|Fórum da Cultura Digital Brasileira 2009|Discussion|"Roda de conversa sobre vídeo livre"
-2009-12|São Paulo, SP|PUC-SP, Curso de Design Informacional|Guest lecture|"Interfaces Interativas"
-2010-01|São Paulo, SP|Campus Party Brasil 2010|Discussion|"Open Video"
-2010-01|São Paulo, SP|Campus Party Brasil 2010|Organization|coordination of the Video area
-2010-01||Simpósio Internacional de Políticas Públicas para Acervos Digitais (MinC)|Curation|video curation
-2010-01-30|São Paulo, SP|Campus Party Brasil 2010|Workshop|"VJing"
-2010-02|São Paulo, SP|Brazilian launch of the film "10 Tactics to Turn Information Into Action"|Discussion|"Infoativismo"
-2010-02|São Paulo, SP|Brazilian launch of the film "10 Tactics to Turn Information Into Action"|Organization|organizing the launch
-2010-03|Montevideo, Uruguay|Campamento Latinoamericano de Jóvenes Activistas Sociales (JAS10, Open Society Institute e Fundación SES)|Talk|"Vídeo livre"
-2010-04|Porto Alegre, RS|FISL, Mostra do Vídeo Livre 2010|Curation|coordination of the Mostra do Vídeo Livre
-2010-04-06|São Paulo, SP|O Empreendedor Audiovisual no Mercado Globalizado (SIAESP), módulo Mídias Digitais|Talk|"Produção multimídia"
-2010-05-31||Rede iVoz, IPTV workshops|Workshop|streaming and IPTV
-2010-06|Brasília, DF|9ª Oficina para Inclusão Digital (OID)|Talk|"Vídeo Livre"
-2010-07|Rio de Janeiro, RJ|Seminário Interfaces Digitais Colaborativas, ECO-UFRJ|Discussion|"Plataformas Digitais"
-2010-07|Porto Alegre, RS|FISL 11|Talk|"Cervo + Plataforma de Vídeo"
-2010-07|Porto Alegre, RS|FISL 11|Discussion|"Fundação da Aliança do Vídeo Livre"
-2010-07-22|Porto Alegre, RS|FISL 11|Talk|"Apresentando a Vimax – Plataforma Livre para Vídeos"
-2010-07-27|Salvador, BA|VI SEMCINE (ICBA)|Talk|"Produção multimídia"
-2010-08-26|São Paulo, SP|Broadcast & Cable (Senac stand)|Talk|"Software Livre"
-2010-09|São Paulo, SP|Fórum da Cultura Digital Brasileira 2010 (MinC)|Organization|coordination of technology and live streaming
-2010-09-15|Rio de Janeiro, RJ|O Empreendedor Audiovisual no Mercado Globalizado, Mídias Digitais (Cine Glória)|Talk|"HTML5 e a evolução multimídia"
-2010-10-02|New York, USA|Open Video Conference 2010|Talk|"Open Video in Brazil"
-2010-11-08|São Paulo, SP|Festival Conexões Tecnológicas (Instituto Sergio Motta)|Jury|selection for the VJ tournament
-2010-11-16|São Paulo, SP|II Fórum da Cultura Digital Brasileira (Cinemateca Brasileira)|Talk|"Pesquisa Vídeo Livre no Brasil"
-2011-01-22|São Paulo, SP|Campus Party Brasil 2011|Talk|"VJing"
-2011-02|São Paulo, SP|Turing Clube, Garoa Hacker Clube|Discussion|"Plataformas de Vídeo Livre"
-2011-03-12|São Paulo, SP|Oficina de Streaming CCE|Workshop|"Oficina de Streaming"
-2011-03-22|Cachoeira, BA|UFRB, I Semana da Pesquisa de Cinema e Audiovisual|Workshop|"Vídeo Livre"
-2011-04|São Paulo, SP|7ª Virada Cultural (Sesc Belenzinho)|Installation|"Photolink", a mosaic of 24 projectors
-2011-05|Recife, PE|Nave|Workshop|"Video Mapping"
-2011-07|Porto Alegre, RS|FISL 12, Mostra do Vídeo Livre 2011|Curation|coordination of the Mostra do Vídeo Livre
-2011-08|São Paulo, SP|II Seminário de Literacia Midiática|Panel|"Pesquisa Vídeo Livre no Brasil: Produtores e Desafios"
-2011-08|São Paulo, SP|PUC-SP, Curso de Design Informacional|Guest lecture|"Interfaces Interativas"
-2011-08-17|São Paulo, SP|Faculdade Cásper Líbero, V Semana do Audiovisual|Talk|"Do Broadcast ao Broadband"
-2011-09|Salvador, BA|Teatro Vila Velha|Workshop|"Streaming de vídeo"
-2011-10|São Paulo, SP|CEMEC, Empreendedores Criativos|Residency|project "memeLab"
-2011-11|São Paulo, SP|Samba na Casa do Gato|Installation|"VideoPong"
-2011-11-07|Belo Horizonte, MG|Plug Minas, NAP (Núcleo de Apoio ao Professor)|Workshop|"Realidade aumentada na educação"
-2011-12|São Paulo, SP and Rio de Janeiro, RJ|Ônibus Hacker|Exhibition|"Jandig"
-2011-12|Rio de Janeiro, RJ|Festival CulturaDigital.Br (MAM Rio)|Exhibition|"Jandig"
-2012-01|Porto Alegre, RS|Conexões Globais 2.0|Workshop|"Seja um VJ livre!"
-2012-01|Salvador, BA|Digitalia|Installation|"Surfluz"
-2012-01|Amsterdam, Netherlands and São Paulo, SP|NIMk / Vivo arte.mov, Residência BR/NL (Labmovel)|Residency|"Narrative Navigation"
-2012-02|São Paulo, SP|Campus Party Brasil 5 (Campus Futuro)|Exhibition|"Jandig"
-2012-02-09|São Paulo, SP|Campus Party Brasil 5|Talk|"Jandig"
-2012-02-09|São Paulo, SP|Campus Party Brasil 5|Talk|"Vjing em Software Livre"
-2012-03|Amsterdam, Netherlands|NIMk, Nederlands Instituut voor Mediakunst|Talk|"Narrative navigation"
-2012-03|São Paulo, SP|Baixo Centro|Exhibition|"Jandig"
-2012-04|São Paulo, SP|Labmovel (Praça Dom José Gaspar)|Talk|"Narrative Navigation"
-2012-04|São Paulo, SP|Labmovel (Praça Dom José Gaspar)|Exhibition|"Narrative Navigation"
-2012-04|São Paulo, SP|Labmovel (Praça Dom José Gaspar)|Exhibition|"Jandig"
-2012-04|São Paulo, SP|Labmovel (Centro Cultural São Paulo)|Talk|"Narrative Navigation"
-2012-04|São Paulo, SP|Labmovel (Centro Cultural São Paulo)|Exhibition|"Narrative Navigation"
-2012-04-20|São Paulo, SP|Centro Cultural São Paulo|Workshop|collaborative writing session for Narrative Navigation
-2012-04-21|Salvador, BA|Dorkbot|Talk|"Narrative Navigation"
-2012-04-27|São Paulo, SP|Insper|Workshop|
-2012-05-31|São Paulo, SP|Circuito Vivo Arte.mov (Paço das Artes)|Exhibition|"Narrative Navigation"
-2012-06|Salvador, BA|Teatro Vila Velha, play "O Olho de Deus é o Avesso dos Retalhos"|Technology direction|video capture and projection mapping
-2012-06-01|São Paulo, SP|Circuito Vivo arte.mov (Paço das Artes, USP)|Discussion|"Narrativas na Cidade: realidade aumentada compartilhada"
-2012-07|Porto Alegre, RS|FISL 13 (2012)|Talk|"Jandig – arte em realidade aumentada"
-2012-07|Porto Alegre, RS|FISL 13 (2012)|Exhibition|"Jandig"
-2012-07-26|Porto Alegre, RS|FISL 13 (2012)|Discussion|"Cidades Copyleft"
-2012-08-30|São Paulo, SP|Estéticas das Periferias (Sesc)|Discussion|"Arte digital: o centro está em toda parte"
-2012-09|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Talk|"Realidade Aumentada"
-2012-09|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Usando um Kinect para fazer seu próprio game"
-2012-09|Sorocaba, SP|Sesc Sorocaba, Experimentações Eletro-Orgânicas|Residency|lab on interaction between people and plants
-2012-09|Sorocaba, SP|Opening of Sesc Sorocaba|Exhibition|"Experimentações Eletro-Orgânicas"
-2012-09-01|Sorocaba, SP|Opening of Sesc Sorocaba|Installation|"VideoPong"
-2012-09-01|Sorocaba, SP|Opening of Sesc Sorocaba|Exhibition|"Algo a Mais? - Jandig"
-2012-09-10|São Paulo, SP|Ciclo Realidade Aumentada, Casa da Cultura Digital|Talk|"Realidade Aumentada"
-2012-09-10|São Paulo, SP|Ciclo Realidade Aumentada, Casa da Cultura Digital|Workshop|"Introdução à Realidade Aumentada"
-2012-09-12|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Introdução à realidade aumentada"
-2012-09-26|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Mapeamento em realidade aumentada"
-2012-10-13|São Paulo, SP|Festa do Vinil (Sesc Ipiranga)|VJ set|
-2012-11|São Paulo, SP|Vídeo Guerrilha|Installation|"VideoPong"
-2012-11|São Paulo, SP|Sesc Santana|Exhibition|"Criaturas Afetivas – Experiência #1"
-2012-11-07|São Paulo, SP|Sesc Santana, Hard users: software e sensibilidade|Residency|lab of technology experiments
-2013-02|São Paulo, SP|Campus Party Brasil 2013|Discussion|"Arte, tecnociência e educação: Propostas de modelos de Medialabs / Hacklabs"
-2013-02|São Paulo, SP|Campus Party Brasil 2013|Moderation|"Bate-Papo Empreendedores Criativos: Professor Pardal"
-2013-02|Porto Alegre, RS|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Barraco Estúdio)|Workshop|"Projection Mapping"
-2013-03|Goiânia, GO|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Ideia Ambiental e Cultural)|Workshop|"Projection Mapping"
-2013-05|Fortaleza, CE|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Travessa da Imagem)|Workshop|"Projection Mapping"
-2013-05|São Paulo, SP|Virada Cultural 2013|Installation|"VideoPong"
-2013-05|São Paulo, SP|Virada Cultural 2013|Installation|"Pac-Man Motion"
-2013-05-13|Belém, PA|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Fotoativa)|Workshop|"Projection Mapping"
-2013-05-24|Salvador, BA|TEDx Salvador (ACBEU)|Talk|"Redescobrindo Games"
-2013-05-24|Salvador, BA|TEDx Salvador (ACBEU)|Installation|"VideoPong"
-2013-06|Nine cities in São Paulo state|Circuito Sesc de Artes 2013|Installation|"Surfluz"
-2013-07|Porto Alegre, RS|FISL 14|Talk|"Incubadora – Interação no teatro mediada por Software Livre"
-2013-07|Porto Alegre, RS|FISL 14|Workshop|"Video mapping"
-2013-07|Porto Alegre, RS|FISL 14|Installation|"Memórias", projection mapping
-2013-08-29|Buenos Aires, Argentina|Hacks/Hackers Buenos Aires Media Party 2013|Keynote|"The EcoLab, bringing innovation to environmental reporting"
-2013-08-29|Buenos Aires, Argentina|Hacks/Hackers Buenos Aires Media Party 2013, Media Feria|Presentation|InfoAmazonia and Jeo stand at the Media Feria
-2013-08-30|Buenos Aires, Argentina|Hacks/Hackers Buenos Aires Media Party 2013|Workshop|"Using Jeo to create your own mapping platform"
-2013-09|São Paulo, SP|Vivacidade|Exhibition|"Mimesis"
-2013-10-21|Salvador, BA|Desafios Contemporâneos, Funarte (Teatro Vila Velha)|Workshop|"Arte+Tecnologia"
-2013-12|Brasília, DF|Oficina para a Inclusão Digital 2013|Workshop|"Usando Jeo para criar sua plataforma de mapas"
-2014-01|São Paulo, SP|Campus Party Brasil 2014|Moderation|"Jornalista precisa saber código?"
-2014-01|São Paulo, SP|Campus Party Brasil 2014|Moderation|"O futuro dos portais brasileiros"
-2014-01|São Paulo, SP|Campus Party Brasil 2014|Moderation|"Novos equipamentos: drones, sensores, wearables como google glass, celulares"
-2014-01|São Paulo, SP|Campus Party Brasil 2014|Talk|"Hubs Criativos - 1º Encontro das Casas de Cultura Digital do Brasil"
-2014-01-09|Salvador, BA|Zona Mundi (Caatinga Cultura e Entretenimento)|VJ set|
-2014-01-30|São Paulo, SP|Campus Party Brasil 2014|Workshop|"Usando Jeo para criar sua plataforma de mapas"
-2014-02|São Paulo, SP|b_arco (Galeria Virgílio)|Exhibition|"Beberibe", group installation
-2014-04-28|San Francisco and Berkeley, USA|Environmental Journalists Network Meeting (Google)|Workshop|"DustDuino"
-2014-05|Porto Alegre, RS|FISL 15|Talk|"Raul Hacker Clube – o início de um hackerspace"
-2014-05-07|Porto Alegre, RS|FISL 15|Talk|"Criação e remix online de mapas usando Mapas Coletivos"
-2014-08|Ilhéus, BA|Oficinas de Video Mapping (OVM) Bahia, Ilhéus (Secretaria de Cultura de Ilhéus)|Workshop|projection mapping
-2014-08-19|Salvador, BA|Oficinas de Video Mapping (OVM) Bahia (Frida Projetos Culturais, Secult BA)|Workshop|projection mapping, with a closing showcase
-2014-10|Barcelona, Spain|Hangar|Residency|"Chronica Mobilis"
-2015-01-22|Salvador, BA|Festival de Verão Salvador 2015 (palco Sensações)|VJ set|
-2015-04-13|Salvador, BA|Oi Kabum|Talk|"Chronica Mobilis na Oi Kabum"
-2015-04-14|Salvador, BA|Oi Kabum|Workshop|"Chronica Mobilis"
-2015-05-14|Salvador, BA|Pragatecno, "Música eletrônica: de onde viemos para onde vamos?" (Espaço Lalá, Rio Vermelho)|VJ set|VJ sets and coordination of the video showcases
-2015-05-29|São Paulo, SP|First anniversary of the Google Impact Challenge Brazil (Google office)|Presentation|Rede InfoAmazonia, one year on
-2015-07-25|Miguel Pereira, RJ|DRIFT Internacional (ZU-UK)|Residency|"Criaturas Afetivas – Experiência #1"
-2015-09|São Paulo, SP|Red Bull Basement, 1ª turma (Red Bull Station)|Residency|pilot of an environmental monitoring network, "Código Urbano"
-2015-10-27|São Paulo, SP|Red Bull Basement, Open Day (Red Bull Station)|Presentation|public presentation by the residents
-2015-11-20|Cocodrie, Louisiana, USA|Public Lab, 5th Annual Barnraising|Presentation|opening of the theme "Building networks across regions"
-2015-12-10|São Paulo, SP|Red Bull Basement (Red Bull Station)|Presentation|final presentation of the residency
-2016-05-25|London, UK|GAS Station (ZU-UK)|Residency|lab "Dinner Date", with ZU-UK and TAG Montréal
-2016-06-25|London, UK|Economies of Experience 2016 (EoE16), "What Makes the Perfect Lab?" (GAS Station)|Organization|co-host of the conference on lab and residency models
-2016-08-24|Lima, Peru|Taller Observatorio Regional de Áreas Protegidas del Bioma Amazónico (Proyecto SNACC, Redparques, WWF)|Presentation|platform of the Observatory of Protected Areas and Climate
-2016-10|Bogotá, Colombia|Barcu / AltCity (ZU-UK)|Performance|"Goodnight, Sleep Tight"
-2017-04-20|São Paulo, SP|Coletivo Digital|Exhibition|"Janelas Digitais"
-2017-05|São Paulo, SP|Virada Cultural 2017 (Sesc Belenzinho)|Installation|"Pac-Man Gigante"
-2017-05-20|São Paulo, SP|Virada Cultural 2017 (Sesc Belenzinho)|Exhibition|Jandig exhibition, Japan theme
-2017-10|Montreal, Canada|ZU-UK (TAG, Concordia)|Performance|"Goodnight, Sleep Tight"
-2017-10-02|London, UK|ZU-UK (GAS Station)|Performance|"Goodnight, Sleep Tight"
-2017-12-16|Osasco, SP|Sesc Osasco|Workshop|"Brincando de VJing"
-2018-01|Goiânia, GO|Artist residency #plural (memeLab and PlanoP)|Organization|organization and selection of the 360° video dance residency
-2018-03-04|Osasco, SP|FestA! Festival de Aprender (Sesc Osasco)|Workshop|"Arte em QR Code"
-2018-04-29|São Paulo, SP|Sesc Interlagos|Workshop|"Mapeamento Aéreo Participativo"
-2018-05-19|São Paulo, SP|Virada Cultural 2018 (Chácara do Jockey)|Installation|"VideoPong"
-2018-05-19|São Paulo, SP|Virada Cultural 2018 (Chácara do Jockey)|Installation|"Pac-Man Motion"
-2018-09-05|São Paulo, SP|Sesc Pompéia|Course|"Produção de Vídeo Imersivo"
-2018-10|São Paulo, SP|Sesc Pompéia|Installation|"Janelas para o Passado"
-2018-10|Shenzhen, China|GOSH 2018, Gathering for Open Science Hardware|VJ set|my last VJ performance
-2018-10-04|London, UK|26th Raindance Film Festival, Raindance Immersive Stories (Gallery of Immersive Stories)|Collaboration|support for the VR showcase
-2018-10-09|São Paulo, SP|Experimenta! Comida, Saúde e Cultura (Sesc Avenida Paulista)|Installation|"Na Pressão!"
-2018-10-10|Shenzhen, China|GOSH 2018, Gathering for Open Science Hardware|Talk|Rede InfoAmazonia
-2018-10-27|London, UK|MozFest 2018, Decentralisation Space (Ravensbourne)|Session|"Jandig - augmented reality exhibition"
-2018-10-27|London, UK|MozFest 2018, MOSS Awards Speed Dating|Pitch|"Jandig"
-2019-03-29|Nine stops in São Paulo state|Circuito Sesc de Artes 2019|Workshop|"Oficina de Jandig - arte em realidade aumentada"
-2019-03-29|Nine stops in São Paulo state|Circuito Sesc de Artes 2019|Exhibition|"Jandig - Arte em Realidade Aumentada"
-2019-04-16|São Paulo, SP|Sesc Pompéia|Course|"Produção de Vídeo Imersivo (360)"
-2019-06|Guarulhos, SP|Opening of Sesc Guarulhos|Exhibition|"Vida Longa à Jandig!"
-2019-06-02|São Paulo, SP|Festival Path 2019 (Maksoud Plaza)|Panel|"A hora da XR (Extended Reality)"
-2019-06-29|São Paulo, SP|X-Reality USP 2019 (EBAC e ECA-USP)|Organization|creation, organizing committee, scientific committee and technical production
-2019-06-29|São Paulo, SP|X-Reality USP 2019 (EBAC e ECA-USP)|Panel|opening panel
-2019-07-25|Ouro Preto, MG|Festival Marte 2019|Exhibition|"Narrativa Territorial - Ouro Preto"
-2019-07-25|Ouro Preto, MG|MARTE Festival 2019, 2ª edição (Praça Tiradentes)|Installation|"Instalação artística tecnológica - Virtual - Jandig por Vj Pixel"
-2019-08|Belo Horizonte, MG|Garota Hacker (studio and FUMEC)|Course|augmented reality course "Rejunte"
-2019-08-27|Belo Horizonte, MG|Garota Hacker (Jandig and Lá da Favelinha)|Course|"Formação em Realidade Aumentada"
-2020-02|São Paulo, SP|Carnaval 4.0, Rosas de Ouro (Sambódromo do Anhembi)|Exhibition|Jandig augmented reality in the parade
-2020-09-18|São Paulo, SP and online|Exhibition "Caipirismo - José Antônio da Silva e Jocelino Soares" (Sesc Bom Retiro)|Exhibition|digital tour of the exhibition
-2020-09-19|online|Festival Criativar|Panel|"Audiovisual Expandido"
-2020-11|online|ProAC Expresso LAB 57/2020 (games, VR and AR)|Jury|selection committee
-2020-11-18|Belo Horizonte, MG or online|PUC Minas|Talk|seminar on the VUCA world and my career
-2020-11-28|online|Festival Amazônia Mapping 2020|Workshop|"Da Realidade Aumentada à Projeção Mapeada"
-2020-12-07|online|Ciclo de Gestão Cultural 2020 (Oficinas Culturais SP)|Discussion|webinar "Arte, Cultura e Tecnologia"
-2021-03|online|Festival Marte 2021|Curation|showcase of 360° music videos
-2021-03|online|MozFest 2021|Exhibition|"Connected - Global AR Exhibition"
-2021-03-19|online|X-Reality USP 2021|Organization|organizing committee and curation
-2021-03-19|online|X-Reality USP 2021|Panel|opening panel
-2022-11-17|São Paulo, SP|X-Reality USP 2022|Organization|organizing committee, international curation and executive production
-2022-11-17|São Paulo, SP|X-Reality USP 2022|Panel|opening panel
-2023-08-25|Jundiaí, SP|LABmais, Sesc Jundiaí|Workshop|videocast production
-2023-09|online|SoundBITES podcast (Nanochomp)|Interview|podcast episode
-2024-08-26|Curitiba, PR|ExperimentAnima 2024 / V Mostra de Animação, UTFPR|Exhibition|"Narrativa Territorial de Ouro Preto"
-2024-08-26|Curitiba, PR|ExperimentAnima 2024 / V Mostra de Animação, UTFPR|Exhibition|"Narrativa Territorial - Centro de Belo Horizonte 2021"
-2024-09-20|São Paulo, SP|X-Reality USP 2024 (USP)|Organization|scientific committee, executive team and making-of
-2024-09-20|São Paulo, SP|X-Reality USP 2024|Panel|opening panel
-2025-10-24|São Paulo, SP|Mitologia Estendida na USP (CTR-ECA)|Presentation|playtest, demo and talk about the project
-2025-11-07|Barcelona, Spain|Mozilla Festival 2025 (Poble Espanyol)|Installation|"Jandig - Brazilian Myths in Mixed Reality"
-2026-01-29|São Paulo, SP|Mitologia Estendida (Coletivo Digital)|Installation|mixed reality installation and AR sticker album
-2026-01-30|São Paulo, SP|Mitologia Estendida (Coletivo Digital)|Workshop|"Oficina: Criação de Publicações Interativas em Realidade Estendida"
-2026-05-13|São Paulo, SP|São Paulo Innovation Week 2026 (FAAP, Palco 27)|Panel|"XR Futures: Games, Art, and the Expansion of Immersive Worlds"
-2026-06-19|Cataguases, MG|2ª Semana de Artes de Cataguases|Exhibition|"Mitos em Movimento: Animação e Realidade Aumentada"
-2026-06-20|Cataguases, MG|2ª Semana de Artes de Cataguases (AnimaParque)|Workshop|"Mitos em Movimento: Animação e Realidade Aumentada"
-2026-06-30|São Paulo, SP|X-Reality USP 2026 (CTR-ECA)|Panel|opening panel
-2026-07-01|São Paulo, SP|X-Reality USP 2026, Academic Conference|Talk|"X-Reality: Jandig e Mitologia Estendida"
-2026-10-10|online|diar.ia.br AI Immersion, cohort 1|Course|"Crie seu primeiro agente de IA sem programar"
-2026-10-17|online|diar.ia.br AI Immersion, cohort 2|Course|"Conteúdo Autêntico com IA"
+2002-09|Salvador, BA|V Seminários Integrados, Faculdade Ruy Barbosa|Talk|"Softwares para video jockeying"|0
+2003-05|Salvador, BA|Imagens Sonoras, Instituto Cultural Brasil-Alemanha|Discussion|"A estética das imagens em ambientes de música eletrônica"|0
+2003-10|Salvador, BA|I Festival GNU/Linux de Salvador|Talk|"Produção multimídia em softwares livres"|0
+2004-02|Salvador, BA|Faculdade Ruy Barbosa|Talk|"Software Livre"|0
+2004-06|Porto Alegre, RS|V FISL, lançamento do Creative Commons Brasil|VJ set|VJ at Gilberto Gil's concert|0
+2004-08|Salvador, BA|Faculdade Ruy Barbosa|Talk|"Software Livre"|0
+2004-09|São Paulo, SP|SESC Pompéia|Workshop|"Tribo Wiki"|0
+2004-10|São Paulo, SP|VJBR I (MIS)|Talk|"VJing com softwares livres"|0
+2004-11|São Paulo, SP|Resfest|Talk|"Produção multimídia em softwares livres"|0
+2005-01|Vitória, Rio de Janeiro, São Paulo, Florianópolis, Curitiba and Porto Alegre|Caravana da Comunicação|Talk|"Produção multimídia em softwares livres"|0
+2005-01|Porto Alegre, RS|Fórum Social Mundial|Talk|"Produção multimídia em softwares livres"|0
+2005-02|Belo Horizonte, MG|Carnaval Revolução|Talk|"Produção multimídia em softwares livres"|0
+2005-03|Salvador, BA|II Festival Software Livre da Bahia|Talk|"Cultura digital nos Pontos de Cultura"|0
+2005-08|Aracaju, SE|Encontro de Pontos de Cultura do Nordeste|Workshop|"Edição de vídeo em softwares livres"|0
+2005-11|Brazlândia, DF|Encontro de Conhecimentos Livres dos Pontos de Cultura do Centro-Oeste|Workshop|"Edição de vídeo em softwares livres"|0
+2006-02|Belo Horizonte, MG|Carnaval Revolução|Talk|"Estúdio Livre"|0
+2006-02|Porto Alegre, RS|FISL, Festival Criei, Tive Como!|VJ set|VJ set and festival organizing|0
+2006-07|Salvador, BA|Câmara Municipal de Salvador|Discussion|"Inclusão digital"|0
+2006-07|Salvador, BA|Festa Social de Fazenda Coutos|Workshop|"MetaReciclagem"|0
+2006-08|Salvador, BA|III Festival Software Livre da Bahia|Talk|"Projeto Casa Brasil"|0
+2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"MetaReciclagem"|0
+2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"Projeto Casa Brasil"|0
+2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"Estúdio Livre"|0
+2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"LiVES"|0
+2006-10|Goiânia, GO|3º Fórum Goiano de Software Livre|Workshop|"MetaReciclagem"|0
+2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"Enlightenment DR17"|0
+2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"Projeto Casa Brasil"|0
+2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"LiVES"|0
+2007-01|Rio de Janeiro, RJ|5ª Bienal de Arte, Ciência e Cultura da UNE|Discussion|"Inclusão digital e tecnologia na educação"|0
+2007-01|Porto Alegre, RS|FISL 8, TV Criei, Tive Como!|VJ set||0
+2007-04|Porto Alegre, RS|FISL 8|Discussion|"Edição de vídeo em software livre, em que pé estamos? Pra onde vamos?"|0
+2007-06|Salvador, BA|ECCO, Encontro de Cultura Colaborativa|Talk|"Produção multimídia em softwares livres"|0
+2007-09|Cuiabá, MT|Festival Calango de Artes Integradas|Discussion|"Software livre e música independente"|0
+2007-10|Brasília, DF|Semana Ginga Brasil|Workshop|"Produção de conteúdo para TV digital"|0
+2007-11|Belo Horizonte, MG|Teia 2007|Workshop|"MetaReciclagem"|0
+2007-11|Foz do Iguaçu, PR|Latinoware 2007 (IV Conferência Latinoamericana de Software Livre)|Talk|"MetaReciclagem"|0
+2007-11|Salvador, BA|6ª Oficina para Inclusão Digital|Workshop|"MetaReciclagem"|0
+2008-04|Porto Alegre, RS|FISL 9|Workshop|"Panorama do vídeo em Software Livre"|0
+2008-08|Brasília, DF|CONSEGI 2008|Workshop|"Streaming de vídeo com software livre"|0
+2009-01|São Paulo, SP|Campus Party Brasil 2009|Workshop|"Laboratório de novas interfaces"|0
+2009-02|Bangalore, India|Info-Activism Camp (Tactical Tech)|Workshop|"Video editing"|1
+2009-02|Bangalore, India|Info-Activism Camp (Tactical Tech)|Workshop|"Compressing and encoding"|1
+2009-04-29|São Paulo, SP|Coletivo Digital|Discussion|"Cultura livre e novas formas de proteção autoral"|0
+2009-06|Porto Alegre, RS|FISL 10|Discussion|"Open Video Alliance"|0
+2009-06|New York, USA|Open Video Conference 2009|Discussion|discussions, representing Brazil and the LiVES project|1
+2009-08|Brasília, DF|CONSEGI 2009|Workshop|"Interfaces e interatividade"|0
+2009-08|Brasília, DF|CONSEGI 2009|Workshop|"Edição de vídeos com LiVES"|0
+2009-08|Brasília, DF|CONSEGI 2009|Installation|"VideoPong"|0
+2009-10|Santos, SP|Cibercultura 10+10|Workshop|"Remix de vídeo ao vivo"|0
+2009-11|São Paulo, SP|Fórum da Cultura Digital Brasileira 2009|Discussion|"Roda de conversa sobre vídeo livre"|0
+2009-12|São Paulo, SP|PUC-SP, Curso de Design Informacional|Guest lecture|"Interfaces Interativas"|0
+2010-01|São Paulo, SP|Campus Party Brasil 2010|Discussion|"Open Video"|0
+2010-01||Simpósio Internacional de Políticas Públicas para Acervos Digitais (MinC)|Curation|video curation|0
+2010-01-30|São Paulo, SP|Campus Party Brasil 2010|Workshop|"VJing"|0
+2010-02|São Paulo, SP|Brazilian launch of the film "10 Tactics to Turn Information Into Action"|Discussion|"Infoativismo"|0
+2010-03|Montevideo, Uruguay|Campamento Latinoamericano de Jóvenes Activistas Sociales (JAS10, Open Society Institute e Fundación SES)|Talk|"Vídeo livre"|1
+2010-04|Porto Alegre, RS|FISL, Mostra do Vídeo Livre 2010|Curation|coordination of the Mostra do Vídeo Livre|0
+2010-04-06|São Paulo, SP|O Empreendedor Audiovisual no Mercado Globalizado (SIAESP), módulo Mídias Digitais|Talk|"Produção multimídia"|0
+2010-05-31||Rede iVoz, IPTV workshops|Workshop|streaming and IPTV|0
+2010-06|Brasília, DF|9ª Oficina para Inclusão Digital (OID)|Talk|"Vídeo Livre"|0
+2010-07|Rio de Janeiro, RJ|Seminário Interfaces Digitais Colaborativas, ECO-UFRJ|Discussion|"Plataformas Digitais"|0
+2010-07|Porto Alegre, RS|FISL 11|Talk|"Cervo + Plataforma de Vídeo"|0
+2010-07|Porto Alegre, RS|FISL 11|Discussion|"Fundação da Aliança do Vídeo Livre"|0
+2010-07-22|Porto Alegre, RS|FISL 11|Talk|"Apresentando a Vimax – Plataforma Livre para Vídeos"|0
+2010-07-27|Salvador, BA|VI SEMCINE (ICBA)|Talk|"Produção multimídia"|0
+2010-08-26|São Paulo, SP|Broadcast & Cable (Senac stand)|Talk|"Software Livre"|0
+2010-09-15|Rio de Janeiro, RJ|O Empreendedor Audiovisual no Mercado Globalizado, Mídias Digitais (Cine Glória)|Talk|"HTML5 e a evolução multimídia"|0
+2010-10-02|New York, USA|Open Video Conference 2010|Talk|"Open Video in Brazil"|1
+2010-11-08|São Paulo, SP|Festival Conexões Tecnológicas (Instituto Sergio Motta)|Jury|selection for the VJ tournament|0
+2010-11-16|São Paulo, SP|II Fórum da Cultura Digital Brasileira (Cinemateca Brasileira)|Talk|"Pesquisa Vídeo Livre no Brasil"|0
+2011-01-22|São Paulo, SP|Campus Party Brasil 2011|Talk|"VJing"|0
+2011-02|São Paulo, SP|Turing Clube, Garoa Hacker Clube|Discussion|"Plataformas de Vídeo Livre"|0
+2011-03-12|São Paulo, SP|Oficina de Streaming CCE|Workshop|"Oficina de Streaming"|0
+2011-03-22|Cachoeira, BA|UFRB, I Semana da Pesquisa de Cinema e Audiovisual|Workshop|"Vídeo Livre"|0
+2011-04|São Paulo, SP|7ª Virada Cultural (Sesc Belenzinho)|Installation|"Photolink", a mosaic of 24 projectors|0
+2011-05|Recife, PE|Nave|Workshop|"Video Mapping"|0
+2011-07|Porto Alegre, RS|FISL 12, Mostra do Vídeo Livre 2011|Curation|coordination of the Mostra do Vídeo Livre|0
+2011-08|São Paulo, SP|II Seminário de Literacia Midiática|Panel|"Pesquisa Vídeo Livre no Brasil: Produtores e Desafios"|0
+2011-08|São Paulo, SP|PUC-SP, Curso de Design Informacional|Guest lecture|"Interfaces Interativas"|0
+2011-08-17|São Paulo, SP|Faculdade Cásper Líbero, V Semana do Audiovisual|Talk|"Do Broadcast ao Broadband"|0
+2011-09|Salvador, BA|Teatro Vila Velha|Workshop|"Streaming de vídeo"|0
+2011-10|São Paulo, SP|CEMEC, Empreendedores Criativos|Residency|project "memeLab"|0
+2011-11|São Paulo, SP|Samba na Casa do Gato|Installation|"VideoPong"|0
+2011-11-07|Belo Horizonte, MG|Plug Minas, NAP (Núcleo de Apoio ao Professor)|Workshop|"Realidade aumentada na educação"|0
+2011-12|São Paulo, SP and Rio de Janeiro, RJ|Ônibus Hacker|Exhibition|"Jandig"|0
+2011-12|Rio de Janeiro, RJ|Festival CulturaDigital.Br (MAM Rio)|Exhibition|"Jandig"|0
+2012-01|Porto Alegre, RS|Conexões Globais 2.0|Workshop|"Seja um VJ livre!"|0
+2012-01|Salvador, BA|Digitalia|Installation|"Surfluz"|0
+2012-01|Amsterdam, Netherlands and São Paulo, SP|NIMk / Vivo arte.mov, Residência BR/NL (Labmovel)|Residency|"Narrative Navigation"|1
+2012-02|São Paulo, SP|Campus Party Brasil 5 (Campus Futuro)|Exhibition|"Jandig"|0
+2012-02-09|São Paulo, SP|Campus Party Brasil 5|Talk|"Jandig"|0
+2012-02-09|São Paulo, SP|Campus Party Brasil 5|Talk|"Vjing em Software Livre"|0
+2012-03|Amsterdam, Netherlands|NIMk, Nederlands Instituut voor Mediakunst|Talk|"Narrative navigation"|1
+2012-03|São Paulo, SP|Baixo Centro|Exhibition|"Jandig"|0
+2012-04|São Paulo, SP|Labmovel (Praça Dom José Gaspar)|Talk|"Narrative Navigation"|0
+2012-04|São Paulo, SP|Labmovel (Praça Dom José Gaspar)|Exhibition|"Narrative Navigation"|0
+2012-04|São Paulo, SP|Labmovel (Praça Dom José Gaspar)|Exhibition|"Jandig"|0
+2012-04|São Paulo, SP|Labmovel (Centro Cultural São Paulo)|Talk|"Narrative Navigation"|0
+2012-04|São Paulo, SP|Labmovel (Centro Cultural São Paulo)|Exhibition|"Narrative Navigation"|0
+2012-04-20|São Paulo, SP|Centro Cultural São Paulo|Workshop|collaborative writing session for Narrative Navigation|0
+2012-04-21|Salvador, BA|Dorkbot|Talk|"Narrative Navigation"|0
+2012-04-27|São Paulo, SP|Insper|Workshop||0
+2012-05-31|São Paulo, SP|Circuito Vivo Arte.mov (Paço das Artes)|Exhibition|"Narrative Navigation"|0
+2012-06|Salvador, BA|Teatro Vila Velha, play "O Olho de Deus é o Avesso dos Retalhos"|Technology direction|video capture and projection mapping|0
+2012-06-01|São Paulo, SP|Circuito Vivo arte.mov (Paço das Artes, USP)|Discussion|"Narrativas na Cidade: realidade aumentada compartilhada"|0
+2012-07|Porto Alegre, RS|FISL 13 (2012)|Talk|"Jandig – arte em realidade aumentada"|0
+2012-07|Porto Alegre, RS|FISL 13 (2012)|Exhibition|"Jandig"|0
+2012-07-26|Porto Alegre, RS|FISL 13 (2012)|Discussion|"Cidades Copyleft"|0
+2012-08-30|São Paulo, SP|Estéticas das Periferias (Sesc)|Discussion|"Arte digital: o centro está em toda parte"|0
+2012-09|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Talk|"Realidade Aumentada"|0
+2012-09|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Usando um Kinect para fazer seu próprio game"|0
+2012-09|Sorocaba, SP|Sesc Sorocaba, Experimentações Eletro-Orgânicas|Residency|lab on interaction between people and plants|0
+2012-09|Sorocaba, SP|Opening of Sesc Sorocaba|Exhibition|"Experimentações Eletro-Orgânicas"|0
+2012-09-01|Sorocaba, SP|Opening of Sesc Sorocaba|Installation|"VideoPong"|0
+2012-09-01|Sorocaba, SP|Opening of Sesc Sorocaba|Exhibition|"Algo a Mais? - Jandig"|0
+2012-09-10|São Paulo, SP|Ciclo Realidade Aumentada, Casa da Cultura Digital|Talk|"Realidade Aumentada"|0
+2012-09-10|São Paulo, SP|Ciclo Realidade Aumentada, Casa da Cultura Digital|Workshop|"Introdução à Realidade Aumentada"|0
+2012-09-12|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Introdução à realidade aumentada"|0
+2012-09-26|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Mapeamento em realidade aumentada"|0
+2012-10-13|São Paulo, SP|Festa do Vinil (Sesc Ipiranga)|VJ set||0
+2012-11|São Paulo, SP|Vídeo Guerrilha|Installation|"VideoPong"|0
+2012-11|São Paulo, SP|Sesc Santana|Exhibition|"Criaturas Afetivas – Experiência #1"|0
+2012-11-07|São Paulo, SP|Sesc Santana, Hard users: software e sensibilidade|Residency|lab of technology experiments|0
+2013-02|São Paulo, SP|Campus Party Brasil 2013|Discussion|"Arte, tecnociência e educação: Propostas de modelos de Medialabs / Hacklabs"|0
+2013-02|São Paulo, SP|Campus Party Brasil 2013|Moderation|"Bate-Papo Empreendedores Criativos: Professor Pardal"|0
+2013-02|Porto Alegre, RS|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Barraco Estúdio)|Workshop|"Projection Mapping"|0
+2013-03|Goiânia, GO|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Ideia Ambiental e Cultural)|Workshop|"Projection Mapping"|0
+2013-05|Fortaleza, CE|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Travessa da Imagem)|Workshop|"Projection Mapping"|0
+2013-05|São Paulo, SP|Virada Cultural 2013|Installation|"VideoPong"|0
+2013-05|São Paulo, SP|Virada Cultural 2013|Installation|"Pac-Man Motion"|0
+2013-05-13|Belém, PA|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Fotoativa)|Workshop|"Projection Mapping"|0
+2013-05-24|Salvador, BA|TEDx Salvador (ACBEU)|Talk|"Redescobrindo Games"|0
+2013-05-24|Salvador, BA|TEDx Salvador (ACBEU)|Installation|"VideoPong"|0
+2013-06|Nine cities in São Paulo state|Circuito Sesc de Artes 2013|Installation|"Surfluz"|0
+2013-07|Porto Alegre, RS|FISL 14|Talk|"Incubadora – Interação no teatro mediada por Software Livre"|0
+2013-07|Porto Alegre, RS|FISL 14|Workshop|"Video mapping"|0
+2013-07|Porto Alegre, RS|FISL 14|Installation|"Memórias", projection mapping|0
+2013-08-29|Buenos Aires, Argentina|Hacks/Hackers Buenos Aires Media Party 2013|Keynote|"The EcoLab, bringing innovation to environmental reporting"|1
+2013-08-29|Buenos Aires, Argentina|Hacks/Hackers Buenos Aires Media Party 2013, Media Feria|Presentation|InfoAmazonia and Jeo stand at the Media Feria|1
+2013-08-30|Buenos Aires, Argentina|Hacks/Hackers Buenos Aires Media Party 2013|Workshop|"Using Jeo to create your own mapping platform"|1
+2013-09|São Paulo, SP|Vivacidade|Exhibition|"Mimesis"|0
+2013-10-21|Salvador, BA|Desafios Contemporâneos, Funarte (Teatro Vila Velha)|Workshop|"Arte+Tecnologia"|0
+2013-12|Brasília, DF|Oficina para a Inclusão Digital 2013|Workshop|"Usando Jeo para criar sua plataforma de mapas"|0
+2014-01|São Paulo, SP|Campus Party Brasil 2014|Moderation|"Jornalista precisa saber código?"|0
+2014-01|São Paulo, SP|Campus Party Brasil 2014|Moderation|"O futuro dos portais brasileiros"|0
+2014-01|São Paulo, SP|Campus Party Brasil 2014|Moderation|"Novos equipamentos: drones, sensores, wearables como google glass, celulares"|0
+2014-01|São Paulo, SP|Campus Party Brasil 2014|Talk|"Hubs Criativos - 1º Encontro das Casas de Cultura Digital do Brasil"|0
+2014-01-09|Salvador, BA|Zona Mundi (Caatinga Cultura e Entretenimento)|VJ set||0
+2014-01-30|São Paulo, SP|Campus Party Brasil 2014|Workshop|"Usando Jeo para criar sua plataforma de mapas"|0
+2014-02|São Paulo, SP|b_arco (Galeria Virgílio)|Exhibition|"Beberibe", group installation|0
+2014-04-28|San Francisco and Berkeley, USA|Environmental Journalists Network Meeting (Google)|Workshop|"DustDuino"|1
+2014-05|Porto Alegre, RS|FISL 15|Talk|"Raul Hacker Clube – o início de um hackerspace"|0
+2014-05-07|Porto Alegre, RS|FISL 15|Talk|"Criação e remix online de mapas usando Mapas Coletivos"|0
+2014-08|Ilhéus, BA|Oficinas de Video Mapping (OVM) Bahia, Ilhéus (Secretaria de Cultura de Ilhéus)|Workshop|projection mapping|0
+2014-08-19|Salvador, BA|Oficinas de Video Mapping (OVM) Bahia (Frida Projetos Culturais, Secult BA)|Workshop|projection mapping, with a closing showcase|0
+2014-10|Barcelona, Spain|Hangar|Residency|"Chronica Mobilis"|1
+2015-01-22|Salvador, BA|Festival de Verão Salvador 2015 (palco Sensações)|VJ set||0
+2015-04-13|Salvador, BA|Oi Kabum|Talk|"Chronica Mobilis na Oi Kabum"|0
+2015-04-14|Salvador, BA|Oi Kabum|Workshop|"Chronica Mobilis"|0
+2015-05-14|Salvador, BA|Pragatecno, "Música eletrônica: de onde viemos para onde vamos?" (Espaço Lalá, Rio Vermelho)|VJ set|VJ sets and coordination of the video showcases|0
+2015-05-29|São Paulo, SP|First anniversary of the Google Impact Challenge Brazil (Google office)|Presentation|Rede InfoAmazonia, one year on|0
+2015-07-25|Miguel Pereira, RJ|DRIFT Internacional (ZU-UK)|Residency|"Criaturas Afetivas – Experiência #1"|0
+2015-09|São Paulo, SP|Red Bull Basement, 1ª turma (Red Bull Station)|Residency|pilot of an environmental monitoring network, "Código Urbano"|0
+2015-10-27|São Paulo, SP|Red Bull Basement, Open Day (Red Bull Station)|Presentation|public presentation by the residents|0
+2015-11-20|Cocodrie, Louisiana, USA|Public Lab, 5th Annual Barnraising|Presentation|opening of the theme "Building networks across regions"|1
+2015-12-10|São Paulo, SP|Red Bull Basement (Red Bull Station)|Presentation|final presentation of the residency|0
+2016-05-25|London, UK|GAS Station (ZU-UK)|Residency|lab "Dinner Date", with ZU-UK and TAG Montréal|1
+2016-08-24|Lima, Peru|Taller Observatorio Regional de Áreas Protegidas del Bioma Amazónico (Proyecto SNACC, Redparques, WWF)|Presentation|platform of the Observatory of Protected Areas and Climate|1
+2016-10|Bogotá, Colombia|Barcu / AltCity (ZU-UK)|Performance|"Goodnight, Sleep Tight"|1
+2017-04-20|São Paulo, SP|Coletivo Digital|Exhibition|"Janelas Digitais"|0
+2017-05|São Paulo, SP|Virada Cultural 2017 (Sesc Belenzinho)|Installation|"Pac-Man Gigante"|0
+2017-05-20|São Paulo, SP|Virada Cultural 2017 (Sesc Belenzinho)|Exhibition|Jandig exhibition, Japan theme|0
+2017-10|Montreal, Canada|ZU-UK (TAG, Concordia)|Performance|"Goodnight, Sleep Tight"|1
+2017-10-02|London, UK|ZU-UK (GAS Station)|Performance|"Goodnight, Sleep Tight"|1
+2017-12-16|Osasco, SP|Sesc Osasco|Workshop|"Brincando de VJing"|0
+2018-03-04|Osasco, SP|FestA! Festival de Aprender (Sesc Osasco)|Workshop|"Arte em QR Code"|0
+2018-04-29|São Paulo, SP|Sesc Interlagos|Workshop|"Mapeamento Aéreo Participativo"|0
+2018-05-19|São Paulo, SP|Virada Cultural 2018 (Chácara do Jockey)|Installation|"VideoPong"|0
+2018-05-19|São Paulo, SP|Virada Cultural 2018 (Chácara do Jockey)|Installation|"Pac-Man Motion"|0
+2018-09-05|São Paulo, SP|Sesc Pompéia|Course|"Produção de Vídeo Imersivo"|0
+2018-10|São Paulo, SP|Sesc Pompéia|Installation|"Janelas para o Passado"|0
+2018-10|Shenzhen, China|GOSH 2018, Gathering for Open Science Hardware|VJ set|my last VJ performance|1
+2018-10-04|London, UK|26th Raindance Film Festival, Raindance Immersive Stories (Gallery of Immersive Stories)|Collaboration|support for the VR showcase|1
+2018-10-09|São Paulo, SP|Experimenta! Comida, Saúde e Cultura (Sesc Avenida Paulista)|Installation|"Na Pressão!"|0
+2018-10-10|Shenzhen, China|GOSH 2018, Gathering for Open Science Hardware|Talk|Rede InfoAmazonia|1
+2018-10-27|London, UK|MozFest 2018, Decentralisation Space (Ravensbourne)|Session|"Jandig - augmented reality exhibition"|1
+2018-10-27|London, UK|MozFest 2018, MOSS Awards Speed Dating|Pitch|"Jandig"|1
+2019-03-29|Nine stops in São Paulo state|Circuito Sesc de Artes 2019|Workshop|"Oficina de Jandig - arte em realidade aumentada"|0
+2019-03-29|Nine stops in São Paulo state|Circuito Sesc de Artes 2019|Exhibition|"Jandig - Arte em Realidade Aumentada"|0
+2019-04-16|São Paulo, SP|Sesc Pompéia|Course|"Produção de Vídeo Imersivo (360)"|0
+2019-06|Guarulhos, SP|Opening of Sesc Guarulhos|Exhibition|"Vida Longa à Jandig!"|0
+2019-06-02|São Paulo, SP|Festival Path 2019 (Maksoud Plaza)|Panel|"A hora da XR (Extended Reality)"|0
+2019-06-29|São Paulo, SP|X-Reality USP 2019 (EBAC e ECA-USP)|Panel|opening panel|0
+2019-07-25|Ouro Preto, MG|Festival Marte 2019|Exhibition|"Narrativa Territorial - Ouro Preto"|0
+2019-07-25|Ouro Preto, MG|MARTE Festival 2019, 2ª edição (Praça Tiradentes)|Installation|"Instalação artística tecnológica - Virtual - Jandig por Vj Pixel"|0
+2019-08|Belo Horizonte, MG|Garota Hacker (studio and FUMEC)|Course|augmented reality course "Rejunte"|0
+2019-08-27|Belo Horizonte, MG|Garota Hacker (Jandig and Lá da Favelinha)|Course|"Formação em Realidade Aumentada"|0
+2020-02|São Paulo, SP|Carnaval 4.0, Rosas de Ouro (Sambódromo do Anhembi)|Exhibition|Jandig augmented reality in the parade|0
+2020-09-18|São Paulo, SP and online|Exhibition "Caipirismo - José Antônio da Silva e Jocelino Soares" (Sesc Bom Retiro)|Exhibition|digital tour of the exhibition|0
+2020-09-19|online|Festival Criativar|Panel|"Audiovisual Expandido"|0
+2020-11|online|ProAC Expresso LAB 57/2020 (games, VR and AR)|Jury|selection committee|0
+2020-11-18|Belo Horizonte, MG or online|PUC Minas|Talk|seminar on the VUCA world and my career|0
+2020-11-28|online|Festival Amazônia Mapping 2020|Workshop|"Da Realidade Aumentada à Projeção Mapeada"|0
+2020-12-07|online|Ciclo de Gestão Cultural 2020 (Oficinas Culturais SP)|Discussion|webinar "Arte, Cultura e Tecnologia"|0
+2021-03|online|Festival Marte 2021|Curation|showcase of 360° music videos|0
+2021-03|online|MozFest 2021|Exhibition|"Connected - Global AR Exhibition"|1
+2021-03-19|online|X-Reality USP 2021|Panel|opening panel|0
+2022-11-17|São Paulo, SP|X-Reality USP 2022|Panel|opening panel|0
+2023-08-25|Jundiaí, SP|LABmais, Sesc Jundiaí|Workshop|videocast production|0
+2023-09|online|SoundBITES podcast (Nanochomp)|Interview|podcast episode|1
+2024-08-26|Curitiba, PR|ExperimentAnima 2024 / V Mostra de Animação, UTFPR|Exhibition|"Narrativa Territorial de Ouro Preto"|0
+2024-08-26|Curitiba, PR|ExperimentAnima 2024 / V Mostra de Animação, UTFPR|Exhibition|"Narrativa Territorial - Centro de Belo Horizonte 2021"|0
+2024-09-20|São Paulo, SP|X-Reality USP 2024|Panel|opening panel|0
+2025-10-24|São Paulo, SP|Mitologia Estendida na USP (CTR-ECA)|Presentation|playtest, demo and talk about the project|0
+2025-11-07|Barcelona, Spain|Mozilla Festival 2025 (Poble Espanyol)|Installation|"Jandig - Brazilian Myths in Mixed Reality"|1
+2026-01-29|São Paulo, SP|Mitologia Estendida (Coletivo Digital)|Installation|mixed reality installation and AR sticker album|0
+2026-01-30|São Paulo, SP|Mitologia Estendida (Coletivo Digital)|Workshop|"Oficina: Criação de Publicações Interativas em Realidade Estendida"|0
+2026-05-13|São Paulo, SP|São Paulo Innovation Week 2026 (FAAP, Palco 27)|Panel|"XR Futures: Games, Art, and the Expansion of Immersive Worlds"|0
+2026-06-19|Cataguases, MG|2ª Semana de Artes de Cataguases|Exhibition|"Mitos em Movimento: Animação e Realidade Aumentada"|0
+2026-06-20|Cataguases, MG|2ª Semana de Artes de Cataguases (AnimaParque)|Workshop|"Mitos em Movimento: Animação e Realidade Aumentada"|0
+2026-06-30|São Paulo, SP|X-Reality USP 2026 (CTR-ECA)|Panel|opening panel|0
+2026-07-01|São Paulo, SP|X-Reality USP 2026, Academic Conference|Talk|"X-Reality: Jandig e Mitologia Estendida"|0
+2026-10-10|online|diar.ia.br AI Immersion, cohort 1|Course|"Crie seu primeiro agente de IA sem programar"|0
+2026-10-17|online|diar.ia.br AI Immersion, cohort 2|Course|"Conteúdo Autêntico com IA"|0
