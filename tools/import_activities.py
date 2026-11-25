@@ -11,7 +11,7 @@ SRC, DST = sys.argv[1], sys.argv[2]
 
 TYPES = {
     "oficina": "Workshop", "palestra": "Talk", "exposição": "Exhibition",
-    "instalação": "Installation", "organização": "Organization", "debate": "Discussion",
+    "instalação": "Installation", "organização": "Organization", "debate": "Panel",
     "performance de VJ": "VJ set", "painel": "Panel", "apresentação": "Presentation",
     "residência": "Residency", "curso": "Course", "curadoria": "Curation",
     "mediação": "Moderation", "direção de tecnologia": "Technology direction",

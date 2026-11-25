@@ -537,7 +537,7 @@ def esc(t):
 ACT_GROUPS = [
     ("talks", "Talks", {"Talk", "Keynote", "Guest lecture", "Presentation", "Pitch", "Session"}),
     ("workshops", "Workshops and courses", {"Workshop", "Course"}),
-    ("panels", "Panels and discussions", {"Panel", "Discussion", "Moderation", "Interview"}),
+    ("panels", "Panels", {"Panel", "Moderation", "Interview"}),
     ("art", "Exhibitions and residencies", {"Exhibition", "Installation", "Performance", "Residency"}),
     ("vj", "VJ sets", {"VJ set"}),
     ("org", "Curation and juries", {"Curation", "Jury", "Technology direction", "Collaboration"}),

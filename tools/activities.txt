@@ -1,5 +1,5 @@
 2002-09|Salvador, BA|V Seminários Integrados, Faculdade Ruy Barbosa|Talk|"Softwares para video jockeying"|0
-2003-05|Salvador, BA|Imagens Sonoras, Instituto Cultural Brasil-Alemanha|Discussion|"A estética das imagens em ambientes de música eletrônica"|0
+2003-05|Salvador, BA|Imagens Sonoras, Instituto Cultural Brasil-Alemanha|Panel|"A estética das imagens em ambientes de música eletrônica"|0
 2003-10|Salvador, BA|I Festival GNU/Linux de Salvador|Talk|"Produção multimídia em softwares livres"|0
 2004-02|Salvador, BA|Faculdade Ruy Barbosa|Talk|"Software Livre"|0
 2004-06|Porto Alegre, RS|V FISL, lançamento do Creative Commons Brasil|VJ set|VJ at Gilberto Gil's concert|0
@@ -15,7 +15,7 @@
 2005-11|Brazlândia, DF|Encontro de Conhecimentos Livres dos Pontos de Cultura do Centro-Oeste|Workshop|"Edição de vídeo em softwares livres"|0
 2006-02|Belo Horizonte, MG|Carnaval Revolução|Talk|"Estúdio Livre"|0
 2006-02|Porto Alegre, RS|FISL, Festival Criei, Tive Como!|VJ set|VJ set and festival organizing|0
-2006-07|Salvador, BA|Câmara Municipal de Salvador|Discussion|"Inclusão digital"|0
+2006-07|Salvador, BA|Câmara Municipal de Salvador|Panel|"Inclusão digital"|0
 2006-07|Salvador, BA|Festa Social de Fazenda Coutos|Workshop|"MetaReciclagem"|0
 2006-08|Salvador, BA|III Festival Software Livre da Bahia|Talk|"Projeto Casa Brasil"|0
 2006-10|Ouro Preto, MG|3º Encontro Mineiro de Software Livre|Talk|"MetaReciclagem"|0
@@ -26,11 +26,11 @@
 2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"Enlightenment DR17"|0
 2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"Projeto Casa Brasil"|0
 2006-11|Foz do Iguaçu, PR|Latinoware 2006 (III Conferência Latinoamericana de Software Livre)|Talk|"LiVES"|0
-2007-01|Rio de Janeiro, RJ|5ª Bienal de Arte, Ciência e Cultura da UNE|Discussion|"Inclusão digital e tecnologia na educação"|0
+2007-01|Rio de Janeiro, RJ|5ª Bienal de Arte, Ciência e Cultura da UNE|Panel|"Inclusão digital e tecnologia na educação"|0
 2007-01|Porto Alegre, RS|FISL 8, TV Criei, Tive Como!|VJ set||0
-2007-04|Porto Alegre, RS|FISL 8|Discussion|"Edição de vídeo em software livre, em que pé estamos? Pra onde vamos?"|0
+2007-04|Porto Alegre, RS|FISL 8|Panel|"Edição de vídeo em software livre, em que pé estamos? Pra onde vamos?"|0
 2007-06|Salvador, BA|ECCO, Encontro de Cultura Colaborativa|Talk|"Produção multimídia em softwares livres"|0
-2007-09|Cuiabá, MT|Festival Calango de Artes Integradas|Discussion|"Software livre e música independente"|0
+2007-09|Cuiabá, MT|Festival Calango de Artes Integradas|Panel|"Software livre e música independente"|0
 2007-10|Brasília, DF|Semana Ginga Brasil|Workshop|"Produção de conteúdo para TV digital"|0
 2007-11|Belo Horizonte, MG|Teia 2007|Workshop|"MetaReciclagem"|0
 2007-11|Foz do Iguaçu, PR|Latinoware 2007 (IV Conferência Latinoamericana de Software Livre)|Talk|"MetaReciclagem"|0
@@ -40,27 +40,27 @@
 2009-01|São Paulo, SP|Campus Party Brasil 2009|Workshop|"Laboratório de novas interfaces"|0
 2009-02|Bangalore, India|Info-Activism Camp (Tactical Tech)|Workshop|"Video editing"|1
 2009-02|Bangalore, India|Info-Activism Camp (Tactical Tech)|Workshop|"Compressing and encoding"|1
-2009-04-29|São Paulo, SP|Coletivo Digital|Discussion|"Cultura livre e novas formas de proteção autoral"|0
-2009-06|Porto Alegre, RS|FISL 10|Discussion|"Open Video Alliance"|0
-2009-06|New York, USA|Open Video Conference 2009|Discussion|discussions, representing Brazil and the LiVES project|1
+2009-04-29|São Paulo, SP|Coletivo Digital|Panel|"Cultura livre e novas formas de proteção autoral"|0
+2009-06|Porto Alegre, RS|FISL 10|Panel|"Open Video Alliance"|0
+2009-06|New York, USA|Open Video Conference 2009|Panel|discussions, representing Brazil and the LiVES project|1
 2009-08|Brasília, DF|CONSEGI 2009|Workshop|"Interfaces e interatividade"|0
 2009-08|Brasília, DF|CONSEGI 2009|Workshop|"Edição de vídeos com LiVES"|0
 2009-08|Brasília, DF|CONSEGI 2009|Installation|"VideoPong"|0
 2009-10|Santos, SP|Cibercultura 10+10|Workshop|"Remix de vídeo ao vivo"|0
-2009-11|São Paulo, SP|Fórum da Cultura Digital Brasileira 2009|Discussion|"Roda de conversa sobre vídeo livre"|0
+2009-11|São Paulo, SP|Fórum da Cultura Digital Brasileira 2009|Panel|"Roda de conversa sobre vídeo livre"|0
 2009-12|São Paulo, SP|PUC-SP, Curso de Design Informacional|Guest lecture|"Interfaces Interativas"|0
-2010-01|São Paulo, SP|Campus Party Brasil 2010|Discussion|"Open Video"|0
+2010-01|São Paulo, SP|Campus Party Brasil 2010|Panel|"Open Video"|0
 2010-01||Simpósio Internacional de Políticas Públicas para Acervos Digitais (MinC)|Curation|video curation|0
 2010-01-30|São Paulo, SP|Campus Party Brasil 2010|Workshop|"VJing"|0
-2010-02|São Paulo, SP|Brazilian launch of the film "10 Tactics to Turn Information Into Action"|Discussion|"Infoativismo"|0
+2010-02|São Paulo, SP|Brazilian launch of the film "10 Tactics to Turn Information Into Action"|Panel|"Infoativismo"|0
 2010-03|Montevideo, Uruguay|Campamento Latinoamericano de Jóvenes Activistas Sociales (JAS10, Open Society Institute e Fundación SES)|Talk|"Vídeo livre"|1
 2010-04|Porto Alegre, RS|FISL, Mostra do Vídeo Livre 2010|Curation|coordination of the Mostra do Vídeo Livre|0
 2010-04-06|São Paulo, SP|O Empreendedor Audiovisual no Mercado Globalizado (SIAESP), módulo Mídias Digitais|Talk|"Produção multimídia"|0
 2010-05-31||Rede iVoz, IPTV workshops|Workshop|streaming and IPTV|0
 2010-06|Brasília, DF|9ª Oficina para Inclusão Digital (OID)|Talk|"Vídeo Livre"|0
-2010-07|Rio de Janeiro, RJ|Seminário Interfaces Digitais Colaborativas, ECO-UFRJ|Discussion|"Plataformas Digitais"|0
+2010-07|Rio de Janeiro, RJ|Seminário Interfaces Digitais Colaborativas, ECO-UFRJ|Panel|"Plataformas Digitais"|0
 2010-07|Porto Alegre, RS|FISL 11|Talk|"Cervo + Plataforma de Vídeo"|0
-2010-07|Porto Alegre, RS|FISL 11|Discussion|"Fundação da Aliança do Vídeo Livre"|0
+2010-07|Porto Alegre, RS|FISL 11|Panel|"Fundação da Aliança do Vídeo Livre"|0
 2010-07-22|Porto Alegre, RS|FISL 11|Talk|"Apresentando a Vimax – Plataforma Livre para Vídeos"|0
 2010-07-27|Salvador, BA|VI SEMCINE (ICBA)|Talk|"Produção multimídia"|0
 2010-08-26|São Paulo, SP|Broadcast & Cable (Senac stand)|Talk|"Software Livre"|0
@@ -69,7 +69,7 @@
 2010-11-08|São Paulo, SP|Festival Conexões Tecnológicas (Instituto Sergio Motta)|Jury|selection for the VJ tournament|0
 2010-11-16|São Paulo, SP|II Fórum da Cultura Digital Brasileira (Cinemateca Brasileira)|Talk|"Pesquisa Vídeo Livre no Brasil"|0
 2011-01-22|São Paulo, SP|Campus Party Brasil 2011|Talk|"VJing"|0
-2011-02|São Paulo, SP|Turing Clube, Garoa Hacker Clube|Discussion|"Plataformas de Vídeo Livre"|0
+2011-02|São Paulo, SP|Turing Clube, Garoa Hacker Clube|Panel|"Plataformas de Vídeo Livre"|0
 2011-03-12|São Paulo, SP|Oficina de Streaming CCE|Workshop|"Oficina de Streaming"|0
 2011-03-22|Cachoeira, BA|UFRB, I Semana da Pesquisa de Cinema e Audiovisual|Workshop|"Vídeo Livre"|0
 2011-04|São Paulo, SP|7ª Virada Cultural (Sesc Belenzinho)|Installation|"Photolink", a mosaic of 24 projectors|0
@@ -102,11 +102,11 @@
 2012-04-27|São Paulo, SP|Insper|Workshop||0
 2012-05-31|São Paulo, SP|Circuito Vivo Arte.mov (Paço das Artes)|Exhibition|"Narrative Navigation"|0
 2012-06|Salvador, BA|Teatro Vila Velha, play "O Olho de Deus é o Avesso dos Retalhos"|Technology direction|video capture and projection mapping|0
-2012-06-01|São Paulo, SP|Circuito Vivo arte.mov (Paço das Artes, USP)|Discussion|"Narrativas na Cidade: realidade aumentada compartilhada"|0
+2012-06-01|São Paulo, SP|Circuito Vivo arte.mov (Paço das Artes, USP)|Panel|"Narrativas na Cidade: realidade aumentada compartilhada"|0
 2012-07|Porto Alegre, RS|FISL 13 (2012)|Talk|"Jandig – arte em realidade aumentada"|0
 2012-07|Porto Alegre, RS|FISL 13 (2012)|Exhibition|"Jandig"|0
-2012-07-26|Porto Alegre, RS|FISL 13 (2012)|Discussion|"Cidades Copyleft"|0
-2012-08-30|São Paulo, SP|Estéticas das Periferias (Sesc)|Discussion|"Arte digital: o centro está em toda parte"|0
+2012-07-26|Porto Alegre, RS|FISL 13 (2012)|Panel|"Cidades Copyleft"|0
+2012-08-30|São Paulo, SP|Estéticas das Periferias (Sesc)|Panel|"Arte digital: o centro está em toda parte"|0
 2012-09|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Talk|"Realidade Aumentada"|0
 2012-09|Sorocaba, SP|Ciclo Realidade Aumentada, Sesc Sorocaba|Workshop|"Usando um Kinect para fazer seu próprio game"|0
 2012-09|Sorocaba, SP|Sesc Sorocaba, Experimentações Eletro-Orgânicas|Residency|lab on interaction between people and plants|0
@@ -121,7 +121,7 @@
 2012-11|São Paulo, SP|Vídeo Guerrilha|Installation|"VideoPong"|0
 2012-11|São Paulo, SP|Sesc Santana|Exhibition|"Criaturas Afetivas – Experiência #1"|0
 2012-11-07|São Paulo, SP|Sesc Santana, Hard users: software e sensibilidade|Residency|lab of technology experiments|0
-2013-02|São Paulo, SP|Campus Party Brasil 2013|Discussion|"Arte, tecnociência e educação: Propostas de modelos de Medialabs / Hacklabs"|0
+2013-02|São Paulo, SP|Campus Party Brasil 2013|Panel|"Arte, tecnociência e educação: Propostas de modelos de Medialabs / Hacklabs"|0
 2013-02|São Paulo, SP|Campus Party Brasil 2013|Moderation|"Bate-Papo Empreendedores Criativos: Professor Pardal"|0
 2013-02|Porto Alegre, RS|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Barraco Estúdio)|Workshop|"Projection Mapping"|0
 2013-03|Goiânia, GO|Oficinas de Video Mapping, Rede Nacional Funarte Artes Visuais 9ª ed. (Ideia Ambiental e Cultural)|Workshop|"Projection Mapping"|0
@@ -201,7 +201,7 @@
 2020-11|online|ProAC Expresso LAB 57/2020 (games, VR and AR)|Jury|selection committee|0
 2020-11-18|Belo Horizonte, MG or online|PUC Minas|Talk|seminar on the VUCA world and my career|0
 2020-11-28|online|Festival Amazônia Mapping 2020|Workshop|"Da Realidade Aumentada à Projeção Mapeada"|0
-2020-12-07|online|Ciclo de Gestão Cultural 2020 (Oficinas Culturais SP)|Discussion|webinar "Arte, Cultura e Tecnologia"|0
+2020-12-07|online|Ciclo de Gestão Cultural 2020 (Oficinas Culturais SP)|Panel|webinar "Arte, Cultura e Tecnologia"|0
 2021-03|online|Festival Marte 2021|Curation|showcase of 360° music videos|0
 2021-03|online|MozFest 2021|Exhibition|"Connected - Global AR Exhibition"|1
 2021-03-19|online|X-Reality USP 2021|Panel|opening panel|0
