@@ -525,6 +525,42 @@ press_html = '        <div class="press-featured">\n' + "\n".join(
     for href, src, title in press if src not in PRESS_IMG
 ) + "\n        </ul>"
 
+# ---------------------------------------------------------------- TALKS
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+
+def esc(t):
+    return (t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+             .replace('"', "&quot;"))
+
+
+def activities_html():
+    """Full list of confirmed activities, newest year first, from tools/activities.txt."""
+    rows = [l.rstrip("\n").split("|") for l in
+            (Path(__file__).parent / "activities.txt").read_text(encoding="utf-8").splitlines() if l]
+    years = {}
+    for r in rows:
+        years.setdefault(r[0][:4], []).append(r)
+    out = []
+    for y in sorted(years, reverse=True):
+        items = []
+        for date, place, event, typ, title in sorted(years[y], key=lambda r: r[0], reverse=True):
+            parts = date.split("-")
+            when = MONTHS[int(parts[1]) - 1] if len(parts) > 1 else ""
+            if len(parts) > 2:
+                when += " " + str(int(parts[2]))
+            what = esc(typ) + (": " + esc(title) if title else "")
+            where = f'<span class="act-place">, {esc(place)}</span>' if place else ""
+            items.append(f'            <li><span class="act-date">{when}</span>'
+                         f'<span class="act-body"><strong>{esc(event)}</strong>{where}'
+                         f'<br><span class="act-what">{what}</span></span></li>')
+        out.append(f'        <div class="act-year">\n          <h3>{y} <span class="act-count">{len(years[y])}</span></h3>\n'
+                   f'          <ul class="act-list">\n' + "\n".join(items) + "\n          </ul>\n        </div>")
+    return len(rows), "\n".join(out)
+
+
+ACT_N, ACT_HTML = activities_html()
+
 talks = (
     """    <section class="hero hero-tight hero-talks">
       <div class="container hero-grid">
@@ -591,6 +627,8 @@ talks = (
          "Sixteen years as a professional VJ. I coordinated the first VJBR, a national meeting of VJs (2004), taught projection mapping in four state capitals for Funarte (2013), gave the TEDx Salvador talk &quot;Redescobrindo Games&quot; (2013), showed the playable installations &quot;VideoPong&quot; and &quot;Pac-Man Motion&quot; at Virada Cultural (2013 and 2018), and taught &quot;Brincando de VJing&quot; at Sesc Osasco (2017)."),
     ]), alt=True, head="What I talk about",
         lede="The 150+ talks and workshops fall into five themes. The events abroad are in the highlights above.")
+    + section(ACT_HTML, head="Full list",
+        lede=f"The {ACT_N} activities I could confirm with a source, from 2000 to 2026: talks, workshops, panels, VJ sets, exhibitions, residencies and the events I helped organize. Titles are in the language they were given in.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
