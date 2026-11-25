@@ -537,10 +537,7 @@ def esc(t):
 ACT_GROUPS = [
     ("talks", "Talks", {"Talk", "Keynote", "Guest lecture", "Presentation", "Pitch", "Session"}),
     ("workshops", "Workshops and courses", {"Workshop", "Course"}),
-    ("panels", "Panels", {"Panel", "Moderation", "Interview"}),
-    ("art", "Exhibitions and residencies", {"Exhibition", "Installation", "Performance", "Residency"}),
-    ("vj", "VJ sets", {"VJ set"}),
-    ("org", "Curation and juries", {"Curation", "Jury", "Technology direction", "Collaboration"}),
+    ("panels", "Panels and discussions", {"Panel", "Moderation", "Interview"}),
 ]
 ACT_OPEN_YEARS = 2
 
@@ -668,7 +665,7 @@ talks = (
     </section>
 """
     + stats([
-        ("220+", "talks, workshops, exhibitions and performances since 2002"),
+        ("150+", "talks, workshops and panels since 2002"),
         ("4", "continents where I have presented work"),
         ("4", "artist residencies abroad (Netherlands, Spain, UK, Colombia)"),
         ("TEDx", 'TEDx Salvador, 2013: &quot;Redescobrindo Games&quot; (<a href="https://youtu.be/kpJGMomXe-U" target="_blank" rel="noopener">watch the talk</a>)'),
@@ -719,7 +716,7 @@ talks = (
     ]), alt=True, head="What I talk about",
         lede="The 150+ talks and workshops fall into five themes. The events abroad are in the highlights above.")
     + section(ACT_HTML, head="Full list",
-        lede=f"The {ACT_N} activities I could confirm with a source, from {ACT_FIRST} to 2026. Open a year, or filter by kind of activity. Titles are in the language they were given in.")
+        lede=f"The {ACT_N} talks, workshops and panels I could confirm with a source, from {ACT_FIRST} to 2026. Open a year, or filter by kind. Titles are in the language they were given in.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
@@ -732,7 +729,7 @@ talks = (
     ]), head="Field notes")
 )
 page("talks.html", "Talks | Angelo Pixel",
-     "220+ talks, workshops, exhibitions and performances on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
+     "150+ talks, workshops and panels on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
      talks)
 
 # ----------------------------------------------------------- RECOGNITION

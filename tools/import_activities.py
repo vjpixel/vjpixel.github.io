@@ -1,7 +1,7 @@
 """Builds tools/activities.txt (English, public) from the private event list.
 
 Usage: python tools/import_activities.py <path to dados.txt> tools/activities.txt
-Only confirmed rows are imported. Output fields: date|place|event|type|title|abroad (1 or 0)
+Only confirmed talks, workshops and panels are imported. Output fields: date|place|event|type|title|abroad (1 or 0)
 """
 import io
 import re
@@ -19,8 +19,10 @@ TYPES = {
     "júri": "Jury", "entrevista": "Interview",
 }
 
-# Kinds of activity left out of the public page.
-SKIP_TYPES = {"organização"}
+# The public page lists only talks, workshops and panels. Exhibitions, installations,
+# residencies, VJ sets, curation, juries and organizing stay out.
+KEEP_TYPES = {"Talk", "Keynote", "Guest lecture", "Presentation", "Pitch", "Session",
+              "Workshop", "Course", "Panel", "Moderation", "Interview"}
 
 # Rows left out of the public page: (date, start of the event name).
 SKIP = [
@@ -170,12 +172,12 @@ for line in io.open(SRC, encoding="utf-8"):
     data, local, pais, evento, tipo, titulo, papel = f[:7]
     if any(data == d and evento.startswith(e) for d, e in SKIP):
         continue
-    if tipo in SKIP_TYPES:
-        continue
     typ = "Keynote" if "keynote" in papel else TYPES[tipo]
     ti = title(titulo)
     if "::" in ti:
         typ, ti = ti.split("::", 1)
+    if typ not in KEEP_TYPES:
+        continue
     for a, b in EVENTS:
         evento = evento.replace(a, b)
     abroad = "0" if pais in ("Brasil", "n/i", "online") else "1"
