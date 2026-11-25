@@ -538,7 +538,12 @@ ACT_GROUPS = [
     ("talks", "Talks", {"Talk", "Keynote", "Guest lecture", "Presentation", "Pitch", "Session"}),
     ("workshops", "Workshops and courses", {"Workshop", "Course"}),
     ("panels", "Panels and discussions", {"Panel", "Moderation", "Interview"}),
+    ("art", "Exhibitions and residencies", {"Exhibition", "Installation", "Performance", "Residency"}),
+    ("vj", "VJ sets", {"VJ set"}),
+    ("org", "Curation and juries", {"Curation", "Jury", "Technology direction", "Collaboration"}),
 ]
+# The "150+ speaking engagements" figure counts these groups.
+ACT_SPEAKING = ("talks", "workshops", "panels")
 ACT_OPEN_YEARS = 2
 
 ACT_SCRIPT = """        <script>
@@ -644,10 +649,12 @@ def activities_html():
                    '            <ul class="act-list">\n' + "\n".join(items) + "\n            </ul>\n          </details>")
     out.append("        </div>")
     out.append(ACT_SCRIPT)
-    return len(rows), "\n".join(out), order[-1]
+    speaking = sum(counts[k] for k in ACT_SPEAKING)
+    return len(rows), "\n".join(out), order[-1], speaking
 
 
-ACT_N, ACT_HTML, ACT_FIRST = activities_html()
+ACT_N, ACT_HTML, ACT_FIRST, ACT_SPEAKING_N = activities_html()
+assert ACT_SPEAKING_N >= 150, ACT_SPEAKING_N
 
 talks = (
     """    <section class="hero hero-tight hero-talks">
@@ -665,7 +672,7 @@ talks = (
     </section>
 """
     + stats([
-        ("150+", "talks, workshops and panels since 2002"),
+        ("150+", "speaking engagements since 2002: talks, workshops and panels"),
         ("4", "continents where I have presented work"),
         ("4", "artist residencies abroad (Netherlands, Spain, UK, Colombia)"),
         ("TEDx", 'TEDx Salvador, 2013: &quot;Redescobrindo Games&quot; (<a href="https://youtu.be/kpJGMomXe-U" target="_blank" rel="noopener">watch the talk</a>)'),
@@ -714,9 +721,9 @@ talks = (
         ("2002 to 2018", "Games and live visuals",
          "Sixteen years as a professional VJ. I coordinated the first VJBR, a national meeting of VJs (2004), taught projection mapping in four state capitals for Funarte (2013), gave the TEDx Salvador talk &quot;Redescobrindo Games&quot; (2013), showed the playable installations &quot;VideoPong&quot; and &quot;Pac-Man Motion&quot; at Virada Cultural (2013 and 2018), and taught &quot;Brincando de VJing&quot; at Sesc Osasco (2017)."),
     ]), alt=True, head="What I talk about",
-        lede="The 150+ talks and workshops fall into five themes. The events abroad are in the highlights above.")
+        lede="The 150+ speaking engagements fall into five themes. The events abroad are in the highlights above.")
     + section(ACT_HTML, head="Full list",
-        lede=f"The {ACT_N} talks, workshops and panels I could confirm with a source, from {ACT_FIRST} to 2026. Open a year, or filter by kind. Titles are in the language they were given in.")
+        lede=f"The {ACT_N} activities I could confirm with a source, from {ACT_FIRST} to 2026. {ACT_SPEAKING_N} of them are speaking engagements: talks, workshops and courses, panels and discussions. Open a year, or filter by kind. Titles are in the language they were given in.")
     + section(mosaic([
         ("jandig/jandig-02-instalacao-360-marcadores.jpg", "A 360&deg; circular installation covered in AR markers"),
         ("jandig/jandig-06-carnaval-rosas-de-ouro.jpg", "Carnival: an AR intervention in the Rosas de Ouro parade"),
@@ -729,7 +736,7 @@ talks = (
     ]), head="Field notes")
 )
 page("talks.html", "Talks | Angelo Pixel",
-     "150+ talks, workshops and panels on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
+     "150+ speaking engagements on four continents since 2002, including TEDx, the Mozilla Festival and the United Nations.",
      talks)
 
 # ----------------------------------------------------------- RECOGNITION
