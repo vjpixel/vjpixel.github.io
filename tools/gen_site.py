@@ -540,7 +540,7 @@ ACT_GROUPS = [
     ("panels", "Panels and discussions", {"Panel", "Discussion", "Moderation", "Interview"}),
     ("art", "Exhibitions and residencies", {"Exhibition", "Installation", "Performance", "Residency"}),
     ("vj", "VJ sets", {"VJ set"}),
-    ("org", "Organizing and curation", {"Organization", "Curation", "Jury", "Technology direction", "Collaboration"}),
+    ("org", "Curation and juries", {"Curation", "Jury", "Technology direction", "Collaboration"}),
 ]
 ACT_OPEN_YEARS = 2
 

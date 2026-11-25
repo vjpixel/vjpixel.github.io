@@ -19,6 +19,9 @@ TYPES = {
     "júri": "Jury", "entrevista": "Interview",
 }
 
+# Kinds of activity left out of the public page.
+SKIP_TYPES = {"organização"}
+
 # Rows left out of the public page: (date, start of the event name).
 SKIP = [
     ("2023-09", "Antler Brasil"),
@@ -166,6 +169,8 @@ for line in io.open(SRC, encoding="utf-8"):
         continue
     data, local, pais, evento, tipo, titulo, papel = f[:7]
     if any(data == d and evento.startswith(e) for d, e in SKIP):
+        continue
+    if tipo in SKIP_TYPES:
         continue
     typ = "Keynote" if "keynote" in papel else TYPES[tipo]
     ti = title(titulo)
