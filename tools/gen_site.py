@@ -19,7 +19,7 @@ GITHUB = "https://github.com/vjpixel"
 SITE = "https://vjpixel.github.io/"
 
 
-def page(fname, title, desc, body):
+def page(fname, title, desc, body, body_class=""):
     nav = "\n".join(
         '          <li><a href="{0}"{2}>{1}</a></li>'.format(
             href, label, ' aria-current="page"' if href == fname else ""
@@ -27,6 +27,7 @@ def page(fname, title, desc, body):
         for href, label in NAV
     )
     canonical = SITE + ("" if fname == "index.html" else fname)
+    body_attr = f' class="{body_class}"' if body_class else ""
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +49,7 @@ def page(fname, title, desc, body):
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body{body_attr}>
   <header class="site-header">
     <div class="container">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Angelo <span>Pixel</span></a>
@@ -266,54 +267,94 @@ contact_block = section(
 ).replace('<section class="section"', '<section id="contact" class="section"', 1)
 
 # ------------------------------------------------------------------ HOME
-home = f"""    <section class="hero hero-home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-        <p class="eyebrow">Senior Product Manager &middot; AI, APIs and data products</p>
-        <h1>I take products from zero to measurable business impact.</h1>
-        <p class="lede">
-          I am a Senior Product Manager with 10+ years building AI, XR and data-driven products,
-          at Amazon, AutoNation and in products of my own. Today I run a daily AI
-          newsletter produced by a pipeline of AI agents that I built.
-        </p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="experience.html">See my experience</a>
-          <a class="btn btn-secondary" href="projects.html">See my projects</a>
-        </div>
-        </div>
-        <figure class="hero-photo">
-          <img src="assets/images/angelo-pixel.jpg" alt="Portrait of Angelo Pixel" width="1335" height="2000" />
-        </figure>
-      </div>
-    </section>
+def home_rows(items):
+    """Rows of the home page: a short label on the left, a title and one line on the right."""
+    out = []
+    for label, title, org, text, href in items:
+        org_html = f' <span>&middot; {org}</span>' if org else ""
+        t = f'<a href="{href}">{title}</a>' if href else title
+        out.append(f"""          <div class="home-row">
+            <div class="home-when">{label}</div>
+            <div>
+              <h3>{t}{org_html}</h3>
+              <p>{text}</p>
+            </div>
+          </div>""")
+    return "\n".join(out)
 
-{stats([
-    ("USD 11MM", "yearly profit increase at Amazon Brazil from Spider, an API product I led"),
-    ("587%", "peak lift in fee-based revenue at AutoNation after rebuilding the fee system"),
-    ("40", "specialized AI agents in the pipeline that produces diar.ia.br every weekday"),
-    ("150K+", "people reached each month by diar.ia.br, across its own and partner audiences"),
-])}
-{section(recog([
-    ("Anthropic &middot; 2026", "I was selected for the Claude for Open Source Program."),
-    ("United Nations &middot; 2024", "I was invited to represent Brazil at the OSPOs for Good Symposium."),
-    ("Mozilla &middot; 2018", "My project Jandig received the Open Source Support Award."),
-    ("Google &middot; 2014", "Rede InfoAmazonia, a project I conceived, received an Impact Challenge award."),
-], cols4=True), head="Recognized by")}
-{section(cards([
-    ("projects.html#diaria", "diar.ia.br Studio",
-     "A public multi-agent pipeline I built on Claude Code, which takes each newsletter edition from research to scheduling."),
-    ("projects.html#spider", "Spider at Amazon",
-     "An internal API product I took from prototype to product, with a three-year plan and 4.5x more impact in a year."),
-    ("projects.html#jandig", "Jandig",
-     "The open-source augmented reality platform I created, awarded by Mozilla and used by artists, educators and NGOs."),
-    ("projects.html#jeo", "Jeo",
-     "An open-source geojournalism platform for WordPress that I conceived, adopted by newsrooms on three continents."),
-], linked=True), alt=True, head="Selected work",
-   lede="Products I led inside companies, and products I started from nothing. Each one is a case study.")}
-{contact_block}"""
+
+def home_block(anchor, head, inner, more_href="", more_label=""):
+    more = f'\n          <p class="home-more"><a href="{more_href}">{more_label} &rarr;</a></p>' if more_href else ""
+    return f"""        <section id="{anchor}" class="home-block">
+          <h2>{head}</h2>
+{inner}{more}
+        </section>"""
+
+
+HOME_SECTIONS = [("about", "About"), ("experience", "Experience"), ("projects", "Projects"),
+                 ("talks", "Talks"), ("recognition", "Recognition"), ("contact", "Contact")]
+
+home = f"""    <div class="container home-grid">
+      <aside class="home-side">
+        <img class="home-photo" src="assets/images/angelo-pixel.jpg" alt="Portrait of Angelo Pixel" width="1335" height="2000" />
+        <div>
+          <h1>Angelo Pixel</h1>
+          <p class="home-role">Senior Product Manager, AI</p>
+          <p class="home-tag">I take products from zero to measurable business impact.</p>
+        </div>
+        <nav class="home-nav" aria-label="On this page">
+{chr(10).join(f'          <a href="#{a}">{l}</a>' for a, l in HOME_SECTIONS)}
+        </nav>
+        <p class="home-links">
+          <a href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="{GITHUB}" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </aside>
+      <div class="home-main">
+{home_block("about", "About", """          <p>I am a Senior Product Manager with <strong>10+ years building AI, XR and data-driven products</strong>, at Amazon, AutoNation and in products of my own.</p>
+          <p>Today I run a daily AI newsletter produced by <strong>a pipeline of 40 AI agents that I built</strong>. It reaches 150,000+ people a month across its own and partner audiences.</p>""",
+    "about.html", "More about me")}
+{home_block("experience", "Experience", home_rows([
+    ("2025 to present", "Founder and Editor", "diar.ia.br",
+     "Built diar.ia.br Studio, a public production pipeline on Claude Code: <strong>40 agents and 44 skills</strong>, 20+ APIs and 8 MCP servers. It automated the work previously done by a team member.", ""),
+    ("2023 to 2025", "Senior Product Manager", "AutoNation",
+     "Rebuilt the fee system into a self-serve dashboard, <strong>lifting fee-based revenue by up to 587%</strong>. Led the Mobile Service's Partner API from zero to the first customer.", ""),
+    ("2022 to 2023", "Technical Product Manager II", "Amazon",
+     "Led Spider, an API product that <strong>increased Amazon Brazil's yearly profitability by USD 11MM</strong>, and grew its impact 4.5 times in one year.", ""),
+    ("2020 to 2021", "Product Manager", "Stefanini Manufacturing",
+     "Led the discovery of Watchtower, an AI product for industrial maintenance, and advised the C-level to discontinue it for technical and commercial reasons.", ""),
+]), "experience.html", "Full experience, back to 2009")}
+{home_block("projects", "Projects", home_rows([
+    ("AI", "diar.ia.br Studio", "",
+     "A public multi-agent pipeline I built on Claude Code, which takes each newsletter edition from research to scheduling.", "projects.html#diaria"),
+    ("API", "Spider at Amazon", "",
+     "An internal API product I took from prototype to product, with a three-year plan and 4.5x more impact in a year.", "projects.html#spider"),
+    ("XR", "Jandig", "",
+     "The open-source augmented reality platform I created, awarded by Mozilla and used by artists, educators and NGOs.", "projects.html#jandig"),
+    ("Data", "Jeo", "",
+     "An open-source geojournalism platform for WordPress that I conceived, adopted by newsrooms on three continents.", "projects.html#jeo"),
+]), "projects.html", "All case studies")}
+{home_block("talks", "Talks", home_rows([
+    ("Nov 2025", "Mozilla Festival", "Barcelona",
+     "I showed &quot;Jandig - Brazilian Myths in Mixed Reality&quot;, the first public demo of Jandig's mixed reality viewer.", ""),
+    ("Jul 2024", "OSPOs for Good, United Nations", "New York",
+     "I was invited to the two-day symposium on open source at the UN Headquarters.", ""),
+    ("May 2013", "TEDx Salvador", "",
+     "I gave the talk &quot;Redescobrindo Games&quot;.", ""),
+]), "talks.html", "150+ speaking engagements, full list")}
+{home_block("recognition", "Recognition", home_rows([
+    ("2026", "Anthropic", "", "I was selected for the Claude for Open Source Program.", ""),
+    ("2024", "United Nations", "", "I was invited to represent Brazil at the OSPOs for Good Symposium.", ""),
+    ("2018", "Mozilla", "", "My project Jandig received the Open Source Support Award.", ""),
+    ("2014", "Google", "", "Rede InfoAmazonia, a project I conceived, received an Impact Challenge award.", ""),
+]), "recognition.html", "Awards, residencies and press")}
+{home_block("contact", "Contact", f"""          <p>About product, AI, open source, or where they meet. The fastest way to reach me is a <a href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn message</a>. My open-source code is on <a href="{GITHUB}" target="_blank" rel="noopener">GitHub</a>.</p>""")}
+      </div>
+    </div>
+"""
 page("index.html", "Angelo Pixel | Senior Product Manager, AI and data products",
      "Senior Product Manager with 10+ years building AI, XR and data-driven products at Amazon, AutoNation and InfoAmazonia. Founder of diar.ia.br and Jandig.",
-     home)
+     home, body_class="home")
 
 # ------------------------------------------------------------ EXPERIENCE
 jobs = [
