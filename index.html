@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body class="home">
   <header class="site-header">
     <div class="container">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Angelo <span>Pixel</span></a>
@@ -39,133 +39,161 @@
   </header>
 
   <main>
-    <section class="hero hero-home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-        <p class="eyebrow">Senior Product Manager &middot; AI, APIs and data products</p>
-        <h1>I take products from zero to measurable business impact.</h1>
-        <p class="lede">
-          I am a Senior Product Manager with 10+ years building AI, XR and data-driven products,
-          at Amazon, AutoNation and in products of my own. Today I run a daily AI
-          newsletter produced by a pipeline of AI agents that I built.
+    <div class="container home-grid">
+      <aside class="home-side">
+        <img class="home-photo" src="assets/images/angelo-pixel.jpg" alt="Portrait of Angelo Pixel" width="1335" height="2000" />
+        <div>
+          <h1>Angelo Pixel</h1>
+          <p class="home-role">Senior Product Manager, AI</p>
+          <p class="home-tag">I take products from zero to measurable business impact.</p>
+        </div>
+        <nav class="home-nav" aria-label="On this page">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#talks">Talks</a>
+          <a href="#recognition">Recognition</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="home-links">
+          <a href="https://www.linkedin.com/in/vjpixel/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/vjpixel" target="_blank" rel="noopener">GitHub</a>
         </p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="experience.html">See my experience</a>
-          <a class="btn btn-secondary" href="projects.html">See my projects</a>
-        </div>
-        </div>
-        <figure class="hero-photo">
-          <img src="assets/images/angelo-pixel.jpg" alt="Portrait of Angelo Pixel" width="1335" height="2000" />
-        </figure>
-      </div>
-    </section>
-
-    <section class="container">
-      <div class="stat-strip">
-        <div class="stat">
-          <span class="num">USD 11MM</span>
-          <span class="label">yearly profit increase at Amazon Brazil from Spider, an API product I led</span>
-        </div>
-        <div class="stat">
-          <span class="num">587%</span>
-          <span class="label">peak lift in fee-based revenue at AutoNation after rebuilding the fee system</span>
-        </div>
-        <div class="stat">
-          <span class="num">40</span>
-          <span class="label">specialized AI agents in the pipeline that produces diar.ia.br every weekday</span>
-        </div>
-        <div class="stat">
-          <span class="num">150K+</span>
-          <span class="label">people reached each month by diar.ia.br, across its own and partner audiences</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Recognized by</h2>
-        </div>
-        <div class="recognition-grid cols-4">
-          <div class="recognition-item">
-            <span class="year">Anthropic &middot; 2026</span>
-            <p>I was selected for the Claude for Open Source Program.</p>
+      </aside>
+      <div class="home-main">
+        <section id="about" class="home-block">
+          <h2>About</h2>
+          <p>I am a Senior Product Manager with <strong>10+ years building AI, XR and data-driven products</strong>, at Amazon, AutoNation and in products of my own.</p>
+          <p>Today I run a daily AI newsletter produced by <strong>a pipeline of 40 AI agents that I built</strong>. It reaches 150,000+ people a month across its own and partner audiences.</p>
+          <p class="home-more"><a href="about.html">More about me &rarr;</a></p>
+        </section>
+        <section id="experience" class="home-block">
+          <h2>Experience</h2>
+          <div class="home-row">
+            <div class="home-when">2025 to present</div>
+            <div>
+              <h3>Founder and Editor <span>&middot; diar.ia.br</span></h3>
+              <p>Built diar.ia.br Studio, a public production pipeline on Claude Code: <strong>40 agents and 44 skills</strong>, 20+ APIs and 8 MCP servers. It automated the work previously done by a team member.</p>
+            </div>
           </div>
-          <div class="recognition-item">
-            <span class="year">United Nations &middot; 2024</span>
-            <p>I was invited to represent Brazil at the OSPOs for Good Symposium.</p>
+          <div class="home-row">
+            <div class="home-when">2023 to 2025</div>
+            <div>
+              <h3>Senior Product Manager <span>&middot; AutoNation</span></h3>
+              <p>Rebuilt the fee system into a self-serve dashboard, <strong>lifting fee-based revenue by up to 587%</strong>. Led the Mobile Service's Partner API from zero to the first customer.</p>
+            </div>
           </div>
-          <div class="recognition-item">
-            <span class="year">Mozilla &middot; 2018</span>
-            <p>My project Jandig received the Open Source Support Award.</p>
+          <div class="home-row">
+            <div class="home-when">2022 to 2023</div>
+            <div>
+              <h3>Technical Product Manager II <span>&middot; Amazon</span></h3>
+              <p>Led Spider, an API product that <strong>increased Amazon Brazil's yearly profitability by USD 11MM</strong>, and grew its impact 4.5 times in one year.</p>
+            </div>
           </div>
-          <div class="recognition-item">
-            <span class="year">Google &middot; 2014</span>
-            <p>Rede InfoAmazonia, a project I conceived, received an Impact Challenge award.</p>
+          <div class="home-row">
+            <div class="home-when">2020 to 2021</div>
+            <div>
+              <h3>Product Manager <span>&middot; Stefanini Manufacturing</span></h3>
+              <p>Led the discovery of Watchtower, an AI product for industrial maintenance, and advised the C-level to discontinue it for technical and commercial reasons.</p>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container">
-        <div class="section-head">
-          <h2>Selected work</h2>
-          <p class="lede">Products I led inside companies, and products I started from nothing. Each one is a case study.</p>
-        </div>
-        <div class="teaser-grid">
-          <a class="teaser-card" href="projects.html#diaria">
-            <h3>diar.ia.br Studio</h3>
-            <p>A public multi-agent pipeline I built on Claude Code, which takes each newsletter edition from research to scheduling.</p>
-            <span class="arrow" aria-hidden="true">&rarr;</span>
-          </a>
-          <a class="teaser-card" href="projects.html#spider">
-            <h3>Spider at Amazon</h3>
-            <p>An internal API product I took from prototype to product, with a three-year plan and 4.5x more impact in a year.</p>
-            <span class="arrow" aria-hidden="true">&rarr;</span>
-          </a>
-          <a class="teaser-card" href="projects.html#jandig">
-            <h3>Jandig</h3>
-            <p>The open-source augmented reality platform I created, awarded by Mozilla and used by artists, educators and NGOs.</p>
-            <span class="arrow" aria-hidden="true">&rarr;</span>
-          </a>
-          <a class="teaser-card" href="projects.html#jeo">
-            <h3>Jeo</h3>
-            <p>An open-source geojournalism platform for WordPress that I conceived, adopted by newsrooms on three continents.</p>
-            <span class="arrow" aria-hidden="true">&rarr;</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="section-head">
+          <p class="home-more"><a href="experience.html">Full experience, back to 2009 &rarr;</a></p>
+        </section>
+        <section id="projects" class="home-block">
+          <h2>Projects</h2>
+          <div class="home-row">
+            <div class="home-when">AI</div>
+            <div>
+              <h3><a href="projects.html#diaria">diar.ia.br Studio</a></h3>
+              <p>A public multi-agent pipeline I built on Claude Code, which takes each newsletter edition from research to scheduling.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">API</div>
+            <div>
+              <h3><a href="projects.html#spider">Spider at Amazon</a></h3>
+              <p>An internal API product I took from prototype to product, with a three-year plan and 4.5x more impact in a year.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">XR</div>
+            <div>
+              <h3><a href="projects.html#jandig">Jandig</a></h3>
+              <p>The open-source augmented reality platform I created, awarded by Mozilla and used by artists, educators and NGOs.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">Data</div>
+            <div>
+              <h3><a href="projects.html#jeo">Jeo</a></h3>
+              <p>An open-source geojournalism platform for WordPress that I conceived, adopted by newsrooms on three continents.</p>
+            </div>
+          </div>
+          <p class="home-more"><a href="projects.html">All case studies &rarr;</a></p>
+        </section>
+        <section id="talks" class="home-block">
+          <h2>Talks</h2>
+          <div class="home-row">
+            <div class="home-when">Nov 2025</div>
+            <div>
+              <h3>Mozilla Festival <span>&middot; Barcelona</span></h3>
+              <p>I showed &quot;Jandig - Brazilian Myths in Mixed Reality&quot;, the first public demo of Jandig's mixed reality viewer.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">Jul 2024</div>
+            <div>
+              <h3>OSPOs for Good, United Nations <span>&middot; New York</span></h3>
+              <p>I was invited to the two-day symposium on open source at the UN Headquarters.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">May 2013</div>
+            <div>
+              <h3>TEDx Salvador</h3>
+              <p>I gave the talk &quot;Redescobrindo Games&quot;.</p>
+            </div>
+          </div>
+          <p class="home-more"><a href="talks.html">150+ speaking engagements, full list &rarr;</a></p>
+        </section>
+        <section id="recognition" class="home-block">
+          <h2>Recognition</h2>
+          <div class="home-row">
+            <div class="home-when">2026</div>
+            <div>
+              <h3>Anthropic</h3>
+              <p>I was selected for the Claude for Open Source Program.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">2024</div>
+            <div>
+              <h3>United Nations</h3>
+              <p>I was invited to represent Brazil at the OSPOs for Good Symposium.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">2018</div>
+            <div>
+              <h3>Mozilla</h3>
+              <p>My project Jandig received the Open Source Support Award.</p>
+            </div>
+          </div>
+          <div class="home-row">
+            <div class="home-when">2014</div>
+            <div>
+              <h3>Google</h3>
+              <p>Rede InfoAmazonia, a project I conceived, received an Impact Challenge award.</p>
+            </div>
+          </div>
+          <p class="home-more"><a href="recognition.html">Awards, residencies and press &rarr;</a></p>
+        </section>
+        <section id="contact" class="home-block">
           <h2>Contact</h2>
-          <p class="lede">About product, AI, open source, or where they meet. The fastest way to reach me is a LinkedIn message.</p>
-        </div>
-        <ul class="contact-list" style="max-width: 60ch;">
-          <li>
-            <a href="https://www.linkedin.com/in/vjpixel/" target="_blank" rel="noopener">
-              <span>
-                <span>LinkedIn</span><br />
-                <span class="channel-label">Full career history and recommendations</span>
-              </span>
-              <span>linkedin.com/in/vjpixel</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/vjpixel" target="_blank" rel="noopener">
-              <span>
-                <span>GitHub</span><br />
-                <span class="channel-label">Open-source code and experiments</span>
-              </span>
-              <span>github.com/vjpixel</span>
-            </a>
-          </li>
-        </ul>
+          <p>About product, AI, open source, or where they meet. The fastest way to reach me is a <a href="https://www.linkedin.com/in/vjpixel/" target="_blank" rel="noopener">LinkedIn message</a>. My open-source code is on <a href="https://github.com/vjpixel" target="_blank" rel="noopener">GitHub</a>.</p>
+        </section>
       </div>
-    </section>
+    </div>
 
   </main>
 
